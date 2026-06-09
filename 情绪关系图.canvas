@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"1757dee41aa8b80a","type":"text","text":"# 开心/狂喜/癫狂","x":-400,"y":-30,"width":250,"height":60,"color":"2"},
+		{"id":"065d08a163d66166","type":"text","text":"# 生气/愤怒/狂怒","x":140,"y":-30,"width":250,"height":60,"color":"1"},
+		{"id":"32b7fc335f173899","type":"text","text":"# 悲伤/抑郁/绝望","x":-125,"y":140,"width":250,"height":60,"color":"5"},
+		{"id":"8ac7e14998b66245","type":"text","text":"# 说明\n## 红色线条：优势\n## 蓝色线条：劣势\n\n> 优势方造成[[Project RA/指导/关键词#伤害率增加 X%|迅捷一击]]，劣势方造成[[Project RA/指导/关键词#伤害率降低 X%|疲软一击]]。\n\n#pRA/机制/情绪关系   ","x":-400,"y":240,"width":420,"height":260}
+	],
+	"edges":[
+		{"id":"f6f9894d0eb947d4","fromNode":"32b7fc335f173899","fromSide":"right","toNode":"065d08a163d66166","toSide":"bottom","color":"5"},
+		{"id":"e194cee1183ebc01","fromNode":"065d08a163d66166","fromSide":"left","toNode":"1757dee41aa8b80a","toSide":"right","color":"5"},
+		{"id":"f2b66c19e60df944","fromNode":"1757dee41aa8b80a","fromSide":"bottom","toNode":"32b7fc335f173899","toSide":"left","color":"5"},
+		{"id":"2ebb9bb1baa0387e","fromNode":"065d08a163d66166","fromSide":"left","toNode":"32b7fc335f173899","toSide":"top","color":"1"},
+		{"id":"b6bd51d2cc7343af","fromNode":"32b7fc335f173899","fromSide":"top","toNode":"1757dee41aa8b80a","toSide":"right","color":"1"},
+		{"id":"fb4c69597111e207","fromNode":"1757dee41aa8b80a","fromSide":"top","toNode":"065d08a163d66166","toSide":"top","color":"1"}
+	]
+}
