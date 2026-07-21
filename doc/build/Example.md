@@ -106,6 +106,7 @@
 #### 防御
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x1
 
+\[[[mechanism#升级|升级]]]
 ##### 防御 6-9 | Lv+0
 
 #### 防御+

@@ -31,3 +31,18 @@
 
 ---
 
+# 凋萎
+1 [[library#COST|COST]] | 状态卡
+
+\[[[mechanism#保留|保留]]] \[[[mechanism#升级|升级]]] \[[[mechanism#消耗|消耗]]]
+[回合结束]
+- 获得 3 层[[effect#灾厄 X|灾厄]]
+
+---
+
+# 凋萎+
+1 [[library#COST|COST]] | 状态卡
+
+\[[[mechanism#保留|保留]]] \[[[mechanism#消耗|消耗]]]
+[回合结束]
+- 获得 6 层[[effect#灾厄 X|灾厄]]

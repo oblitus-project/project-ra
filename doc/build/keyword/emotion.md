@@ -44,6 +44,7 @@
 #pRA/情绪/崩溃 #pRA/类型/负面 #pRA/机制/崩溃情绪 #pRA/机制/情绪等级/3
 \[情绪等级 III]
 
+本情绪无法自动解除。
 对自身持续造成以下效果：
 - [[doc/build/keyword/mechanism#无法行动|无法行动]]；
 - [[doc/build/keyword/mechanism#抽卡减少 X|抽卡减少 1]]；

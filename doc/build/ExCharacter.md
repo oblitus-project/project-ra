@@ -176,7 +176,7 @@
 #### 我去，疯狗
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3
 
-[战斗开始] 己方随机 1 名角色（自身除外）获得 2 层[[doc/build/keyword/effect#忍耐 X|忍耐]]（1 回合）与 1 层[[doc/build/keyword/mechanism#援护防御 X|援护防御]]（**使用自身的\[[[#护卫君主 x0|护卫君主]]]进行[[doc/build/keyword/mechanism#援护防御 X|援护防御]]**）。
+[战斗开始] 己方随机 1 名角色（自身除外）获得 2 层[[doc/build/keyword/effect#忍耐 X|忍耐]]（1 回合）与 1 层[[doc/build/keyword/mechanism#援护招架 X|援护招架]]（**使用自身的\[[[#护卫君主 x0|护卫君主]]]进行[[doc/build/keyword/mechanism#援护招架 X|援护招架]]**）。
 [使用时] 获得 4 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
 ##### [近战 5-7] | 斩击 Lv+2 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时] 施加 2 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数。
@@ -184,7 +184,7 @@
 #### 护卫君主
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x0
 
-\[[[doc/build/keyword/mechanism#援护防御 X|援护防御]] 专用]
+\[[[doc/build/keyword/mechanism#援护招架 X|援护招架]] 专用]
 [使用时] 获得 4 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
 ##### 招架 5-7 | Lv+1
 [拼点失败] 下回合获得 2 层[[doc/build/keyword/effect#守护 X|守护]]。

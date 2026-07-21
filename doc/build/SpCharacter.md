@@ -48,7 +48,7 @@
 
 ### 慈悲于世
 若选中攻击的目标为**学生**，则命中时不会使目标[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，也不会施加[[doc/build/keyword/index#负面状态效果|负面状态效果]]；
-若己方学生受到**单方面攻击**，对其[[doc/build/keyword/mechanism#援护防御|援护防御]]；
+若己方学生受到**单方面攻击**，对其[[doc/build/keyword/mechanism#援护招架 X|援护招架]]；
 [受击时] 对攻击者造成其骰子最终威力 **50%** 的[[doc/build/keyword/mechanism#固定|固定]]伤害（不对学生生效）。
 
 ### 大人的卡片
@@ -187,7 +187,7 @@
 #### 援护
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | x0
 
-\[[[doc/build/keyword/mechanism#援护防御 X|援护防御]] 专用]
+\[[[doc/build/keyword/mechanism#援护招架 X|援护招架]] 专用]
 [使用时] 恢复 1 [[library#COST|COST]]。
 ##### 招架 5-7 | Lv+0
 [拼点胜利] 下回合[[doc/build/keyword/effect#封印 X|封印]]目标 1 颗速度骰子。
