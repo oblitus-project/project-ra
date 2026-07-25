@@ -33,10 +33,32 @@
 
 对自身持续造成以下效果：
 - [[doc/build/keyword/effect#破绽 X|破绽 1]]，[[doc/build/keyword/effect#拼点威力降低 X|拼点威力降低 1]]； 
+- 获得 1 层[[effect#脆弱 X|脆弱]]；
 - [[doc/build/keyword/effect#伤害率降低 X%|伤害率降低 20%]]，[[doc/build/keyword/effect#造成伤害降低 X%|造成伤害降低 20%]]；
-- [[doc/build/keyword/effect#承伤率增加 X%|承伤率增加 20%]]，，[[doc/build/keyword/effect#受到混乱伤害增加 X%|受到混乱伤害增加 100%]]，[[doc/build/keyword/effect#受到攻击伤害增加 X%|受到攻击伤害增加 100%]]；
+- [[doc/build/keyword/effect#承伤率增加 X%|承伤率增加 20%]]，，[[doc/build/keyword/effect#受到混乱伤害增加 X%|受到混乱伤害增加 20%]]，[[doc/build/keyword/effect#受到攻击伤害增加 X%|受到攻击伤害增加 20%]]；
 - [[doc/build/keyword/effect#受回复率降低 X%|受回复率降低 20%]]。
-- [回合结束] 失去 5 点[[doc/guide/library#理智 / Sanity|理智]]；
+
+[回合结束] 失去 5 点[[doc/guide/library#理智 / Sanity|理智]]；
+
+---
+
+### 痛苦
+#pRA/情绪/崩溃 #pRA/类型/负面 #pRA/机制/崩溃情绪 #pRA/机制/情绪等级/2
+\[情绪等级 II]
+
+本情绪无法被其他情绪覆盖。
+
+对自身持续造成以下效果：
+- [[doc/build/keyword/mechanism#抽卡减少 X|抽卡减少 1]]；
+- 获得 1 层[[effect#疲软 X|疲软]]与 1 层[[effect#脆弱 X|脆弱]]；
+- [[doc/build/keyword/effect#虚弱 X|虚弱 2]]，[[doc/build/keyword/effect#破绽 X|破绽 2]]，[[doc/build/keyword/effect#拼点威力降低 X|拼点威力降低 2]]； 
+- [[doc/build/keyword/effect#伤害率降低 X%|伤害率降低 50%]]，[[doc/build/keyword/effect#造成伤害降低 X%|造成伤害降低 50%]]，[[doc/build/keyword/effect#造成混乱伤害降低 X%|造成混乱伤害降低 50%]]，[[doc/build/keyword/effect#造成攻击伤害降低 X%|造成攻击伤害降低 50%]]；
+- [[doc/build/keyword/effect#承伤率增加 X%|承伤率增加 50%]]，[[doc/build/keyword/effect#混乱承伤率增加 X%|混乱承伤率增加 50%]]，[[doc/build/keyword/effect#攻击承伤率增加 X%|攻击承伤率增加 50%]]，[[doc/build/keyword/effect#受到伤害增加 X%|受到伤害增加 50%]]，[[doc/build/keyword/effect#受到混乱伤害增加 X%|受到混乱伤害增加 50%]]，[[doc/build/keyword/effect#受到攻击伤害增加 X%|受到攻击伤害增加 50%]]；
+- [[doc/build/keyword/effect#受回复率降低 X%|受回复率降低 50%]]。
+
+[回合结束] 
+- 失去 10 点[[doc/guide/library#理智 / Sanity|理智]]；
+- 转化为[[#害怕]]。
 
 ---
 
@@ -44,12 +66,17 @@
 #pRA/情绪/崩溃 #pRA/类型/负面 #pRA/机制/崩溃情绪 #pRA/机制/情绪等级/3
 \[情绪等级 III]
 
-本情绪无法自动解除。
+本情绪无法被其他情绪覆盖。
+
 对自身持续造成以下效果：
 - [[doc/build/keyword/mechanism#无法行动|无法行动]]；
-- [[doc/build/keyword/mechanism#抽卡减少 X|抽卡减少 1]]；
+- [[doc/build/keyword/mechanism#抽卡减少 X|抽卡减少 2]]；
+- 获得 3 层[[effect#疲软 X|疲软]]与 3 层[[effect#脆弱 X|脆弱]]；
 - [[doc/build/keyword/effect#虚弱 X|虚弱 5]]，[[doc/build/keyword/effect#破绽 X|破绽 5]]，[[doc/build/keyword/effect#拼点威力降低 X|拼点威力降低 5]]； 
 - [[doc/build/keyword/effect#伤害率降低 X%|伤害率降低 100%]]，[[doc/build/keyword/effect#造成伤害降低 X%|造成伤害降低 100%]]，[[doc/build/keyword/effect#造成混乱伤害降低 X%|造成混乱伤害降低 100%]]，[[doc/build/keyword/effect#造成攻击伤害降低 X%|造成攻击伤害降低 100%]]；
 - [[doc/build/keyword/effect#承伤率增加 X%|承伤率增加 100%]]，[[doc/build/keyword/effect#混乱承伤率增加 X%|混乱承伤率增加 100%]]，[[doc/build/keyword/effect#攻击承伤率增加 X%|攻击承伤率增加 100%]]，[[doc/build/keyword/effect#受到伤害增加 X%|受到伤害增加 100%]]，[[doc/build/keyword/effect#受到混乱伤害增加 X%|受到混乱伤害增加 100%]]，[[doc/build/keyword/effect#受到攻击伤害增加 X%|受到攻击伤害增加 100%]]；
 - [[doc/build/keyword/effect#受回复率降低 X%|受回复率降低 100%]]。
-- [回合结束] 失去 15 点[[doc/guide/library#理智 / Sanity|理智]]；
+
+[回合结束] 
+- 失去 15 点[[doc/guide/library#理智 / Sanity|理智]]；
+- 转化为[[#痛苦]]。
