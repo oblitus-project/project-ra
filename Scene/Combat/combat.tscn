@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cfkdi62uxqsxr"]
+
+[node name="Combat" type="Node2D" unique_id=1161371389]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=636805108]
+metadata/_edit_lock_ = true
