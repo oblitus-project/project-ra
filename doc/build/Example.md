@@ -138,7 +138,7 @@
 #### 技能
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1
 
-对自身造成以下效果：
+造成以下效果：
 - 
 
 #### 能力
