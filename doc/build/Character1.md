@@ -1,13 +1,6 @@
 Character Vol.1 - 咸阳市实验中学篇
 
-> [!summary] 在阅读之前，你需要注意的要点
-> 1. 角色的被动、牌组都不是可选的。你不能去除其中的任何一项被动或卡牌。
-> 2. 角色的初始状态（ 0 级情感等级时），COST 上限均为 3。在不算被动的情况下，初始速度骰子为 1。
-> 3. 只有一般卡牌才需要从 牌组-一般（“卡牌池”）中抽出来。卡牌下面的计数表示卡牌池中有多少张这一卡牌。一般而言，数量占比越高，就越容易被抽到。不过，高数量也会拖慢循环……
-> 4. 各单位手牌独立、COST独立，过牌只能过自己的。没有团队卡牌、团队 COST 一说。（不过，确实有定位服务团队的卡牌了……）
-> 5. 不是每个角色都有 EIS 卡牌与 EFW 卡牌。
-> 6. [使用时] 不是瞬间生效的，需要在下一个战斗阶段使用该卡牌时才生效。
-> 7. 玩家最高将角色提升至 60 级。结合成长系数，你便可以算出玩家可玩角色的能力值（体力值与混乱抗性）。
+---
 
 # 张峰强
 #pRA/角色/咸阳市实验中学/高三29班/张峰强 #pRA/角色/神秘显现/一般 #pRA/角色/神秘显现/一般装甲 
@@ -668,8 +661,8 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 这不合适吧？
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 4 CD | 特殊 | 暴怒 III
 
-对 1 名指定敌方角色造成以下效果：
-- 这一回合获得[[doc/build/keyword/effect#威力增减无效|威力增减无效]]。
+对 **1 名指定敌方角色**造成以下效果：
+- **这一回合获得[[doc/build/keyword/effect#威力增减无效|威力增减无效]]**。
 
 #### 你们自己看着办
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 0 CD | 特殊 | 嫉妒 IV
@@ -730,16 +723,16 @@ Character Vol.1 - 咸阳市实验中学篇
 自身所有骰子威力+1。
 
 ### 细心关注
-[战斗开始] 获得 1 层[[doc/build/keyword/mechanism#援护反击 X|援护反击]]。
+[战斗开始] **获得 1 层[[doc/build/keyword/mechanism#援护反击 X|援护反击]]**。
 
 ### 我的要求很简单
-[战斗开始] 自身每有 1 颗反击骰子，使自身获得 1 层[[doc/build/keyword/effect#振奋 X|振奋]]。
+[战斗开始] **自身每有 1 颗反击骰子，使自身获得 1 层[[doc/build/keyword/effect#振奋 X|振奋]]**。
 
 ---
 
 ## [[library#理智 / Sanity|理智]]
 ### [[library#士气低落|士气低落]] | 摆烂
-攻击骰子威力-1；
+**攻击骰子威力-1**；
 [[doc/build/keyword/effect#混乱承伤率降低 X%|混乱承伤率降低 20%]]。
 
 ### [[library#恐慌|恐慌]] | PANIC
@@ -787,17 +780,11 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
-
----
 
 #### 我的要求不高
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x2 | 色欲 II
 
-若目标使用防御骰子，使威力+2。
+**若目标使用防御骰子，使威力+2**。
 ##### 远程 5-7 | 突刺 Lv+4
 [命中时] 造成伤害+1。
 ##### 远程 4-7 | 突刺 Lv+3
@@ -822,10 +809,10 @@ Character Vol.1 - 咸阳市实验中学篇
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x2 | 嫉妒 II
 
 [使用时] 为自身增加 1 层[[doc/build/keyword/mechanism#援护反击 X|援护反击]]。
-本回合内，自身的[[doc/build/keyword/mechanism#援护反击 X|援护反击]]层数不会降低。
-自身触发[[doc/build/keyword/mechanism#援护反击 X|援护反击]]时，反击骰子最终威力+2（最多+4）。
+**本回合内，自身的[[doc/build/keyword/mechanism#援护反击 X|援护反击]]层数不会降低**。
+**自身触发[[doc/build/keyword/mechanism#援护反击 X|援护反击]]时，反击骰子最终威力+2**（最多+4）。
 ##### 招架 4-8 | Lv+0
-[拼点失败] 下回合获得 1 层[[doc/build/keyword/effect#守护 X|守护]]，并恢复 3 点[[library#理智 / Sanity|理智]]。
+[拼点失败] 下回合获得 2 层[[doc/build/keyword/effect#守护 X|守护]]，并恢复 3 点[[library#理智 / Sanity|理智]]。
 [命中时] 追加 2 点突刺混乱伤害。
 
 ---
@@ -833,7 +820,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 讲述故事
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x1 | 懒惰 II
 
-[使用时] 为自身增加 1 层[[doc/build/keyword/mechanism#援护反击 X|援护反击]]。
+[使用时] 自身增加 1 层[[doc/build/keyword/mechanism#援护反击 X|援护反击]]。
 ##### 闪避 6-10 | Lv+1
 [闪避成功时] 恢复 5 点理智（单回合仅一次）
 ##### 招架 5-9 | Lv+0
@@ -859,7 +846,7 @@ Character Vol.1 - 咸阳市实验中学篇
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x1 | 暴怒 I
 
 ##### 治疗 7-10 | Lv+2
-[治疗时] 若目标[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，解除混乱。
+[治疗时] **若目标[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，解除混乱**。
 
 ---
 
@@ -876,9 +863,9 @@ Character Vol.1 - 咸阳市实验中学篇
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x1 | 忧郁 IV
 
 ##### 招架 9-20 | Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-本骰子不会被消耗，可以重复使用；
+**本骰子不会被消耗，可以重复使用**；
 [[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 50%]]。
-[拼点失败] 摧毁目标当前技能并使自身[[library#悲伤/抑郁/绝望|悲伤]]。
+[拼点失败] **摧毁目标当前卡牌**并使自身[[library#悲伤/抑郁/绝望|悲伤]]。
 
 > *志愿填报优先填报了**政治**。*
 > *——不过最后怎么被录取到师范单位，并成为了一名语文老师？*
@@ -900,8 +887,8 @@ Character Vol.1 - 咸阳市实验中学篇
 3 [[library#COST|COST]] / 30 [[library#理智 / Sanity|理智]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 3 CD | 特殊 | 忧郁 IV
 
 [使用时] 移除自身 1 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]。
-本技能不会触发目标的闪避骰子；
-目标每带有 3 种[[doc/build/keyword/index#负面状态效果|负面状态效果]]，使威力+2（最多+8）；
+**本卡牌不会触发目标的闪避骰子**；
+**目标每带有 3 种[[doc/build/keyword/index#负面状态效果|负面状态效果]]，使威力+2**（最多+8）；
 [[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 50%]]。
 ##### 远程 5-7 | 突刺 Lv+10
 [命中时] 施加 3 层[[doc/build/keyword/effect#沉沦 X|沉沦]]与 4 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
@@ -911,6 +898,11 @@ Character Vol.1 - 咸阳市实验中学篇
 [命中时] 施加 2 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
 ##### 远程 +0-1 | 突刺 Lv+6
 [命中时] 施加 2 层[[doc/build/keyword/effect#沉沦 X|沉沦]]。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -942,7 +934,7 @@ Character Vol.1 - 咸阳市实验中学篇
 > *老头真的很倔，你不可能比得过他。*
 
 ### 强硬
-自身所有卡牌可以\[[[mechanism#强效偏转|强效偏转]]]。
+**自身所有卡牌可以[[mechanism#强效偏转|强效偏转]]**。
 
 > _碰到他倔的时候，那真是没辙了。_
 
@@ -950,7 +942,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## [[library#理智 / Sanity|理智]]
 ### [[library#士气低落|士气低落]] | 发怒
-使用[[doc/build/keyword/mechanism#技能卡|技能卡]]后，获得 1 层[[doc/build/keyword/effect#强壮|强壮]]。
+**使用[[doc/build/keyword/mechanism#技能卡|技能卡]]后，获得 1 层[[effect#拼点威力增加 X|拼点威力增加]]**。
 
 ### [[library#恐慌|恐慌]] | PANIC
 若自身拥有 **EIS 卡牌**或 **EFW 卡牌**：
@@ -994,20 +986,13 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
-
----
-
 #### 用脚拨
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 傲慢 II
 
 [使用时] 2 回合内：
-- [回合开始] 在[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加]]、[[doc/build/keyword/effect#守备等级增加 X|守备等级增加]]、[[doc/build/keyword/effect#守护 X|守护]]、[[doc/build/keyword/effect#振奋 X|振奋]]、[[doc/build/keyword/effect#迅捷 X|迅捷]]和[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]中获得随机 2 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]（优先获得未拥有的状态效果；获得[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]时，额外获得 1 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]）
-若自身拥有至少 3 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]，每多拥有 1 种，使骰子威力+3（最多+15）——若不足 3 种，每少 1 种，使骰子威力-5。
-##### 远程 6-16 | AW. 2 | 斩击 Lv+3
+- [回合开始] 在[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加]]、[[doc/build/keyword/effect#守备等级增加 X|守备等级增加]]、[[doc/build/keyword/effect#守护 X|守护]]、[[doc/build/keyword/effect#振奋 X|振奋]]、[[doc/build/keyword/effect#迅捷 X|迅捷]]和[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]中获得**随机 2 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]**（优先获得未拥有的状态效果；获得[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]时，额外获得 1 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]）
+若自身拥有**至少 3 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]**，每多拥有 1 种，使骰子威力+3（最多+15）——**若不足 3 种，每少 1 种，使骰子威力-5**。
+##### 远程 6-16 | AW. 3 | 斩击 Lv+3
 [命中时] 抽取 1 张卡牌。
 [命中时 - 已破坏] 本骰子[[doc/build/keyword/effect#造成伤害降低 X%|造成伤害降低 80%]]
 
@@ -1017,12 +1002,13 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 #### 空白
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 嫉妒 II
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 嫉妒 III
 
 [使用时] 获得 5 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
 ##### 远程 5-9 | 突刺 Lv+1
-若目标使用了[[library#反击骰子|反击骰子]]，使本骰子威力+4。
-[命中时 - 未破坏] 下回合施加[[doc/build/keyword/effect#威力增减无效|威力增减无效]]。
+**若目标使用了[[library#反击骰子|反击骰子]]，使本骰子威力+8**。
+[暴击命中时] **下回合[[effect#封印 X|封印]]目标 2 颗速度骰子**。
+[命中时 - 未破坏] **施加[[doc/build/keyword/effect#威力增减无效|威力增减无效]]**。
 
 > *老头的另一则故事。*
 > *这个故事倒有点说法，告诫我们要有敬畏之心，放下傲慢……*
@@ -1034,7 +1020,7 @@ Character Vol.1 - 咸阳市实验中学篇
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 普通 | x3 | 暴食 I
 
 ##### 治疗 7-11 | Lv+0
-[治疗时] 移除其 1 个[[doc/build/keyword/index#负面状态效果|负面状态效果]]。
+[治疗时] [[mechanism#净化|净化]]其 1 个[[doc/build/keyword/index#负面状态效果|负面状态效果]]。
 
 > *只可惜有的问题问千遍仍然是不会……*
 
@@ -1045,7 +1031,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 [使用时] 
 - 使自身[[library#生气/愤怒/狂怒|生气]]。
-- 若自身低于目标速度，每低 2 点，获得 1 层[[effect#拼点威力增加 X|拼点威力增加]]。
+- **若自身低于目标速度，每低 1 点，获得 1 层[[effect#拼点威力增加 X|拼点威力增加]]**。
 ##### 远程 13-25 | 突刺 Lv+7
 [命中时] 
 - 施加 3 层[[doc/build/keyword/effect#缓慢 X|缓慢]]。
@@ -1060,12 +1046,12 @@ Character Vol.1 - 咸阳市实验中学篇
 
 \[[[doc/build/keyword/mechanism#消耗|消耗]]] \[[[doc/build/keyword/mechanism#虚无|虚无]]]
 对自身造成以下效果：
-- [[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，但不改变伤害抗性，初始化混乱抗性；
-- 恢复 10 点体力；
+- **[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，但不改变伤害抗性，初始化混乱抗性**；
+- 恢复**上限 10%** 的体力；
 - 移除自身的情绪；
 - 恢复 1 [[library#COST|COST]] ；
 - 抽取 1 张卡牌；
-- 解除混乱后的回合获得[[doc/build/keyword/effect#隐秘|隐秘]]。
+- **解除混乱后的回合获得[[doc/build/keyword/effect#隐秘|隐秘]]**。
 
 > *他每次上课前都要重启，理由是，有些班电脑上有捆绑软件拖慢电脑速度，这样会快一点；在被戳破后又改称有的是时间。*
 > *不知该怎么说好……*
@@ -1073,28 +1059,35 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 #### 讲述故事
-3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 色欲 III
+3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 傲慢 IV
 
-\[[[doc/build/keyword/mechanism#消耗|消耗]]]
-对除自身外的所有角色造成以下效果：
-- 这一回合[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]。
-对自身造成以下效果：
-- 这一回合获得[[doc/build/keyword/effect#伤害率降低 X%|伤害率降低 50%]]。
+对**除自身外的所有角色**造成以下效果：
+- **这一回合[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]。**
+**结束自己的回合。**
 
 > *穆老师的小故事，开讲了！*
 
 ---
 
 #### 铃声响起
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 懒惰 II
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 懒惰 IV
 
-\[[[doc/build/keyword/mechanism#虚无|虚无]]]
-对除自身外的所有角色造成以下效果：
-- 下回合获得[[doc/build/keyword/effect#心神不宁|心神不宁]]。
+\[[[mechanism#永恒|永恒]]] \[[[mechanism#保留|保留]]]
+**若本卡牌在你的手牌中，你只能打出 1 张卡牌**。
+失去 2 点混乱抗性。
+
+对**除自身外的所有角色**造成以下效果：
+- **这一回合获得[[doc/build/keyword/effect#心神不宁|心神不宁]]**。
+- [[mechanism#震颤引爆|震颤引爆]] 1 次。
 对装备了此卡的[[library#速度骰子|速度骰子]]造成以下效果：
-- 摧毁该速度骰子（1 回合）
-[使用后] 将此卡移入抽牌堆。
-[回合结束] 若此卡仍在手中，将 1 张本卡的复制品加入抽牌堆。
+- **这一回合内，摧毁该速度骰子**。
+
+[使用后]
+- **将这张卡移入抽牌堆最上面**。
+- 下回合[[mechanism#抽卡增加 X|抽卡增加 1]]。
+- **这张卡在本场战斗内耗能+1**（最多 1 次）
+
+[回合结束] **若这张卡还在手中，使耗能-1**
 
 > *有的时候，他的手机会响。*
 > *平时很安静，一旦响起来，那真是没完没了，恨不得不间断。*
@@ -1102,10 +1095,10 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 #### 惩罚
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1 | 暴怒 II
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x2 | 暴怒 II
 
 [使用时] 
-- 2 回合内，在[[doc/build/keyword/effect#守护 X|守护]]、[[doc/build/keyword/effect#振奋 X|振奋]]、[[doc/build/keyword/effect#迅捷 X|迅捷]]和[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]中获得随机 1 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]（优先获得未拥有的状态效果；只获得 1 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]）
+- 2 回合内，在[[doc/build/keyword/effect#守护 X|守护]]、[[doc/build/keyword/effect#振奋 X|振奋]]、[[doc/build/keyword/effect#迅捷 X|迅捷]]和[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]中获得**随机 2 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]**（优先获得未拥有的状态效果；只获得 1 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]）
 - 获得 2 层[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加]]。
 - 使自身[[library#生气/愤怒/狂怒|生气]]。
 ##### 远程 8-15 | AW. 4 | 斩击 Lv+3
@@ -1116,11 +1109,17 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ---
 
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
 ### EFW 卡牌
 #### 无需显摆
-3 [[library#COST|COST]] / 70 [[library#理智 / Sanity|理智]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 1 CD | 特殊 | 暴怒 IV | [[library#情绪侵蚀|狂怒情绪侵蚀]]
+3 [[library#COST|COST]] / 30 [[library#理智 / Sanity|理智]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 1 CD | 特殊 | 暴怒 IV | [[library#情绪侵蚀|狂怒情绪侵蚀]]
 
-目标每有 4 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]，骰子威力+4（最多+8）
+**目标每有 4 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]，骰子威力+4**（最多+8）
+[命中时] 施加 3 层[[effect#烧伤 X|烧伤]]。
 ##### 远程 6-7 | AW. 4 | 斩击 Lv+5
 ##### 远程 5-7 | AW. 4 | 斩击 Lv+4
 ##### 远程 5-6 | AW. 4 | 斩击 Lv+3
@@ -1157,17 +1156,17 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 ### 白板的掌控者
-自身速度最低的 1 颗骰子[[doc/build/keyword/mechanism#不可选中|不可选中]]。
+**自身速度最低的 1 颗骰子[[doc/build/keyword/mechanism#不可选中|不可选中]]**。
 
 ---
 
 ### 应激
-每当自身受到[[doc/build/keyword/mechanism#混乱伤害|混乱伤害]]时，获得层数等同于所受伤害的[[doc/build/keyword/effect#应激 X|应激]]。
+每当自身受到[[doc/build/keyword/mechanism#混乱伤害|混乱伤害]]时，获得层数等同于**所受伤害**的[[doc/build/keyword/effect#应激 X|应激]]。
 
 ---
 
 ### 怨恨
-每当自身受到[[doc/build/keyword/mechanism#攻击伤害|攻击伤害]]时，获得层数等同于所受伤害的[[doc/build/keyword/effect#怨恨 X|怨恨]]。
+每当自身受到[[doc/build/keyword/mechanism#攻击伤害|攻击伤害]]时，获得层数等同于**所受伤害**的[[doc/build/keyword/effect#怨恨 X|怨恨]]。
 
 ---
 
@@ -1184,7 +1183,7 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 ### 不屈
-首次[[library#陷入混乱|陷入混乱]]时解除混乱，并恢复 50% 混乱抗性；
+**首次[[library#陷入混乱|陷入混乱]]时解除混乱**，并恢复 50% 混乱抗性；
 当前回合混乱抗性不会低于 1 点。
 
 ---
@@ -1195,12 +1194,12 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 ### 身兼多职
-自身被视为可以施加任意状态效果的角色。
+自身被视为可以施加**任意状态效果**的角色。
 
 ---
 
 ### 超载
-允许透支不超过[[library#情感等级 / Emotion Level|情感等级]]的 [[library#COST|COST]] 使用。
+**允许透支不超过[[library#情感等级 / Emotion Level|情感等级]]的 [[library#COST|COST]] 使用**。
 
 ---
 
@@ -1255,19 +1254,15 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
 
 #### 执行操作
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x1
 
 \[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
-[固定耗能] 本技能的费用无法改变。
+[固定耗能] **本卡牌的费用无法改变**。
 ##### 近战 2-4 | 打击 Lv+0
 [命中时] 
-- 使手中费用最高的 1 张牌耗能-1（不会低于 0 ；可以重复套用；使用 1 次后失效）
+- 使手中**费用最高**的 1 张牌耗能-1（不会低于 0 ；**可以重复套用**；使用 1 次后失效）
 - 下回合获得 1 层[[doc/build/keyword/effect#迅捷 X|迅捷]]。
 
 > *又该是我出面救场的时候了。*
@@ -1276,12 +1271,12 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 睡意侵蚀
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 怠惰 II
 
-[固定耗能] 本技能的费用无法改变。
+[固定耗能] **本卡牌的费用无法改变**。
 对自身造成以下效果：
-- 这一回合[[doc/build/keyword/mechanism#无法行动|无法行动]]。一旦受到伤害，使自身[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]；
-- 下回合开始时，解除混乱并恢复 1 [[library#COST|COST]]；
-[回合开始] 若自身[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，[[doc/build/keyword/mechanism#丢弃|丢弃]]此卡。每[[doc/build/keyword/mechanism#丢弃|丢弃]] 1 张，恢复上限 1% 的体力与混乱抗性。
-[回合结束] 若此卡仍在手中，失去 10 点混乱抗性并复制 1 张加入手牌。
+- **这一回合[[doc/build/keyword/mechanism#无法行动|无法行动]]。一旦受到伤害，使自身[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]**；
+- 下回合开始时，**解除混乱**，初始化混乱抗性条并恢复 1 [[library#COST|COST]]；
+[回合开始] 若自身[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，[[doc/build/keyword/mechanism#丢弃|丢弃]]此卡。每[[doc/build/keyword/mechanism#丢弃|丢弃]] 1 张，恢复**上限 1%** 的体力与混乱抗性。
+[回合结束] 若此卡仍在手中，失去 10 点混乱抗性并将 1 张本卡牌的复制品加入手牌。
 
 > *“把他叫起来，别睡了！”
 > ……
@@ -1290,7 +1285,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 保存导出
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x1
 
-摧毁本卡牌所有骰子，并将目标卡牌的配置完全复制。
+**摧毁本卡牌所有骰子，并将目标卡牌的配置完全复制**。
 ##### 近战 1-1 | 斩击 Lv+0
 
 > *其实我更喜欢直接按下 `Ctrl` + `S` 组合键。*
@@ -1305,8 +1300,8 @@ Character Vol.1 - 咸阳市实验中学篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1
 
 对自身造成以下效果：
-- 这一回合获得[[doc/build/keyword/effect#隐秘|隐秘]]；
-- 这一回合[[doc/build/keyword/mechanism#无法行动|无法行动]]。
+- **这一回合获得[[doc/build/keyword/effect#隐秘|隐秘]]**；
+- **这一回合[[doc/build/keyword/mechanism#无法行动|无法行动]]**。
 
 #### 灵机一动
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x1
@@ -1314,20 +1309,21 @@ Character Vol.1 - 咸阳市实验中学篇
 [使用时] 使自己[[library#开心/狂喜/癫狂|开心]]。
 每消耗 50 层[[doc/build/keyword/effect#应激 X|应激]]，恢复 10 点[[library#理智 / Sanity|理智]]。
 ##### 招架 5-9 | Lv+0
-[拼点失败] 失去 7 点混乱抗性
-	下回合获得 2 层[[doc/build/keyword/effect#忍耐 X|忍耐]]。
+[拼点失败] 
+- 失去 7 点混乱抗性
+- 下回合获得 2 层忍耐。
 
 #### 遗忘
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x2
 
 \[[[doc/build/keyword/mechanism#消耗|消耗]]]
-选择任意张手牌[[doc/build/keyword/mechanism#消耗|消耗]]。每[[doc/build/keyword/mechanism#消耗|消耗]] 1 张，恢复 1% 混乱抗性上限的混乱抗性。
+选择**任意张**手牌[[doc/build/keyword/mechanism#消耗|消耗]]。每[[doc/build/keyword/mechanism#消耗|消耗]] 1 张，恢复**上限 1%** 的混乱抗性。
 
 #### 抑郁
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1
 
 对自身造成以下效果：
-- [[library#悲伤/抑郁/绝望|抑郁]]。若自身拥有 100 层[[doc/build/keyword/effect#应激 X|应激]]，使自身失去 70 点[[library#理智 / Sanity|理智]]并[[library#悲伤/抑郁/绝望|绝望]]。
+- [[library#悲伤/抑郁/绝望|抑郁]]。若自身拥有 100 层[[doc/build/keyword/effect#应激 X|应激]]，改为使自身失去 70 点[[library#理智 / Sanity|理智]]并[[library#悲伤/抑郁/绝望|绝望]]。
 
 #### 发火
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1 | 暴怒 IV
@@ -1348,7 +1344,7 @@ Character Vol.1 - 咸阳市实验中学篇
 [使用时] 
 - 获得 15 层[[doc/build/keyword/effect#震颤 X|震颤]]与 15 层[[doc/build/keyword/effect#沉沦 X|沉沦]]；
 - 使自身[[library#悲伤/抑郁/绝望|抑郁]]。
-消耗自身至多 50% 的混乱抗性。每消耗自身上限 1% 的混乱抗性，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 2%]]。
+**消耗自身至多 50% 的混乱抗性**（不会使混乱抗性低于**上限 20%**）。每消耗自身**上限** 1% 的混乱抗性，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 2%]]。
 [[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 50%]]。
 ##### 2 远程 +10-12 | 斩击 Lv+5
 [命中时] 施加 3 层[[doc/build/keyword/effect#沉沦 X|沉沦]]与 5 层[[doc/build/keyword/effect#震颤 X|震颤]]。
@@ -1357,12 +1353,14 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 远程 +10-12 | 斩击 Lv+5
 [命中时] 施加 4 层[[doc/build/keyword/effect#沉沦 X|沉沦]]与 3 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 ##### 远程 +6-6 | 斩击 Lv+5 | [[doc/build/keyword/mechanism#截除骰子|截除骰子]]
-若目标理智不高于 -45 ，
-- 使目标这一回合的[[doc/build/keyword/effect#震颤 X|震颤]]层数不会减少
-- 使本骰子重复使用 2 次。
+若**目标理智不高于 -45** ，
+- 使目标**这一回合的[[doc/build/keyword/effect#震颤 X|震颤]]层数不会减少**
+- 使**本骰子重复使用 2 次**。
 [命中时] [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 3 次。
 
 > *这是无法解决的问题，哪怕已经过去了一年多。
+
+---
 
 ### EIS 卡牌
 #### 庄严哀悼
@@ -1371,32 +1369,37 @@ Character Vol.1 - 咸阳市实验中学篇
 自身每有 1 层[[doc/build/keyword/effect#怨恨 X|怨恨]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 1%]]（最多 150%）；
 自身每有 1 级[[library#情感等级 / Emotion Level|情感等级]]，使基础威力+1。
 ##### 3 远程 +0-6 | 突刺 Lv+6
-本骰子可重复使用 6 次。
+[使用时] 失去 3 点理智。
+**本骰子可重复使用 6 次。**
+[命中时] 恢复 1-3 点理智。
 [击杀时] 恢复 10 点[[library#理智 / Sanity|理智]]。
 
 #### 污血泣泪-始
 1 [[library#COST|COST]] / 10 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | 暴食 V
 
 \[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
-本技能不会命中敌人；不会触发目标的守备骰子、反击骰子与敌方单位的[[doc/build/keyword/mechanism#援护 X|援护]]；
-本技能不受威力增减影响。
+**本卡牌不会命中敌人**；不会触发目标的守备骰子、反击骰子与敌方单位的[[doc/build/keyword/mechanism#援护 X|援护]]；
+本卡牌不受威力增减影响。
 ##### 20 近战 -1-10 | 突刺 Lv+10
-自身失去等同于最终威力的体力（不会使自身[[doc/build/keyword/mechanism#倒下|倒下]]）。
+自身失去等同于**最终威力**的体力（不会使自身[[doc/build/keyword/mechanism#倒下|倒下]]）。
 [攻击后] 获得 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]。
 
 #### 污血泣泪-终
 0 [[library#COST|COST]] | 99 CD | 特殊 | 暴食 V
 
-\[[[doc/build/keyword/mechanism#无法装备|无法装备]]] \[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
+\[[[doc/build/keyword/mechanism#无法装备|无法装备]]] | \[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
 自身每有 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 10%]]
 自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 10%]]
 [使用时] 
 - 目标每有 5 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度，使骰子威力+1(最多+3)；
-- 若自身的[[doc/build/keyword/effect#污血 X|污血]]层数不低于 3 层，则使溅射附加值(AW.)+1；若自身的[[doc/build/keyword/effect#污血 X|污血]]层数不低于 4 层，则使溅射附加值(AW.)+2；若自身的[[doc/build/keyword/effect#污血 X|污血]]层数不低于 5 层，则使溅射附加值(AW.)+3；
+- 根据自身的[[doc/build/keyword/effect#污血 X|污血]]层数，触发以下效果：
+	- **不低于 3 层**：使溅射附加值(AW.)+1；
+	- **不低于 4 层**：使溅射附加值(AW.)+2；
+	- **不低于 5 层**：使溅射附加值(AW.)+3；
 ##### 远程 4-6 | AW. 3 | 突刺 Lv+10
 自身每有 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使威力+2；
 自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使威力+3。
-[命中时] 对目标施加 3 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数。
+[命中时] 对目标施加 4 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数。
 ##### 远程 3-5 | AW. 3 | 突刺 Lv+10
 自身每有 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使威力+2；
 自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使威力+3。
@@ -1410,12 +1413,14 @@ Character Vol.1 - 咸阳市实验中学篇
 [命中时] 对目标施加 2 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度。
 [攻击后] 解除自身的[[doc/build/keyword/effect#埋花针 X|埋花针]]与[[doc/build/keyword/effect#污血 X|污血]]，自身[[doc/build/keyword/mechanism#倒下|倒下]]。
 
+---
+
 ### EFW 卡牌
 #### 至终的警告
 7 [[library#COST|COST]] / 50 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | [[library#情绪侵蚀|暴怒情绪侵蚀]]
 
 [使用时] 下回合恢复 1 [[library#COST|COST]]。
-本技能受到威力增减效果x2；
+**本卡牌的骰子受到威力增减效果x2**；
 自身每有 1 级[[library#情感等级 / Emotion Level|情感等级]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 20%]]；
 自身每有 1 层[[doc/build/keyword/effect#怨恨 X|怨恨]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 1%]]；
 自身每有 1 层[[doc/build/keyword/effect#应激 X|应激]]，使[[doc/build/keyword/effect#造成攻击伤害增加 X%|造成攻击伤害增加 1%]]；
@@ -1427,10 +1432,11 @@ Character Vol.1 - 咸阳市实验中学篇
 [命中时] 恢复 1 点[[library#理智 / Sanity|理智]]。
 ##### 远程 -0-5 | 斩击 Lv+10 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 ##### 远程 -0-4 | 斩击 Lv+9 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-若目标体力高于 50% ，重复使用 1 次本骰子。
+最终威力+1。
+**若目标体力高于 50% ，重复使用 1 次本骰子**。
 
 #### 怨恨
-5 [[library#COST|COST]] / 80 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | [[library#情绪侵蚀|绝望情绪侵蚀]]
+5 [[library#COST|COST]] / 80 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | 嫉妒 IV | [[library#情绪侵蚀|绝望情绪侵蚀]]
 
 [固定目标] 选中当前体力百分比最低的敌方单位。
 若自身处于[[library#悲伤/抑郁/绝望|绝望]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 50%]]。
@@ -1440,19 +1446,22 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 40 远程 -0-15 | 打击 Lv+10
 [命中时] 
 - 施加 15 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度；
-- 若目标体力低于10%，则使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 300%]]。
+- 若目标体力低于 **10%**，则使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 300%]]。
 [击杀时] 
-- [[doc/build/keyword/mechanism#净化|净化]]自身所有负面状态
-- 恢复等同于目标最大体力 10% 的混乱抗性。
+- **[[doc/build/keyword/mechanism#净化|净化]]自身所有负面状态**
+- 恢复等同于**目标最大体力 10%** 的混乱抗性。
 
 #### 狂欢
 4 [[library#COST|COST]] / 20 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | [[library#情绪侵蚀|癫狂情绪侵蚀]]
 
 [可选中友方单位]
-这一回合不会[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]。
-失去所有混乱抗性，每失去自身上限 2% 的混乱抗性，使骰子威力+1（最多+20）
+**这一回合不会[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]。**
+**失去所有混乱抗性**，每失去自身**上限 2%** 的混乱抗性：
+- 使骰子威力+1（最多+20）
+- 造成伤害+2%
+下回合恢复**上限 50%** 的混乱抗性。
 ##### 远程 28-42 | AW. 5 | 斩击 Lv+10
-[命中友方时] 不会造成伤害，改为使其恢复等同于骰子最终威力的体力与混乱抗性。
+[命中友方时] **不会造成伤害**，改为使其恢复等同于**骰子最终威力**的体力与混乱抗性。
 
 ---
 
@@ -1552,30 +1561,27 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
 
 #### “跑刀”
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x2
 
 对自身造成以下效果：
-- 若自身没有[[doc/build/keyword/effect#航天 P/X|航天]]，消耗 2 层[[doc/build/keyword/mechanism#手机 X|手机]]并使自身获得 5 层[[doc/build/keyword/effect#航天 P/X|航天]]层数；
-- 若自身拥有[[doc/build/keyword/effect#航天 P/X|航天]]，抽取 2 张卡牌。
+- 若自身没有[[doc/build/keyword/effect#航天 P/X|航天]]：消耗 2 层[[doc/build/keyword/mechanism#手机 X|手机]]并使自身获得 5 层[[doc/build/keyword/effect#航天 P/X|航天]]层数；
+- 若自身拥有[[doc/build/keyword/effect#航天 P/X|航天]]：抽取 2 张卡牌。
 ——若未能消耗，使自身失去 5 点混乱抗性。
 
 #### 点燃一支
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x2
 
 [固定目标] 仅可选中自身作为目标。
-[使用时] 使自身已有的[[doc/build/keyword/emotion#崩溃情绪|崩溃情绪]]等级 -1（不会移除该情绪）；
-	恢复 2 COST ， 15 点混乱抗性并失去 10 点体力（不会使自身体力低于 20% ）；
-	获得 1 层[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]。——若自身已有[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]，每有 1 层，额外失去 5 点体力（不会使自身体力低于 20% ）
-	若自身拥有[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]，获得 3 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
+[使用时] 
+- 使自身已有的[[doc/build/keyword/emotion#崩溃情绪|崩溃情绪]]等级 -1（不会移除该情绪）；
+- 恢复 2 COST ， 15 点混乱抗性并失去 10 点体力（不会使自身体力低于 20% ）；
+- 获得 1 层[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]。——若自身已有[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]，每有 1 层，额外失去 5 点体力（不会使自身体力低于 20% ）
+- 若自身拥有[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]，获得 3 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
 ##### 治疗 9-13 | Lv+1
-本骰子不会造成体力恢复。
-自身每有 3 层[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]，重复使用 1 次本骰子（最多 2 次）。
+**本骰子不会造成体力恢复**。
+自身每有 3 层[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]，**重复使用 1 次本骰子**（最多 2 次）。
 [治疗时] 获得 1 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数。
 
 #### 借一支
@@ -1584,61 +1590,75 @@ Character Vol.1 - 咸阳市实验中学篇
 [固定目标] 仅可选中除自身外的友方角色作为目标。
 优先选中体力最高的角色。
 ##### 近战 4-7 | 突刺 Lv+0
-本骰子不会触发目标的守备骰子或反击骰子。
-本骰子不会造成攻击伤害。
+**本骰子不会触发目标的守备骰子或反击骰子**。
+**本骰子不会造成攻击伤害**。
 [命中时] 恢复 1 [[library#COST|COST]] 并在下回合获得 1 层[[doc/build/keyword/effect#燃尽的香烟 X|燃尽的香烟]]。
 
 #### 计划休眠
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1 | 懒惰 I
 
-对自身造成以下效果：
-- 获得 2 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]。
-[回合结束] 若此牌仍在手中，复制 1 张加入手牌。
+获得 2 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]。
+[回合结束] 若此牌仍在手中，将 1 张本卡牌的复制品加入手牌。
 
 #### 计划清醒
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 暴食 V
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 暴食 IV
 
 对自身造成以下效果：
-- 获得 1 层[[doc/build/keyword/effect#过度清醒 X|过度清醒]]。
+- **获得 1 层[[doc/build/keyword/effect#过度清醒 X|过度清醒]]**。
 - 向手中置入 1 张\[[[#放弃征战，投入休眠 x0|放弃征战，投入休眠]]]。
 
 #### 放弃征战，投入休眠
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x0
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x0 | 忧郁 IV
 
 \[[[doc/build/keyword/mechanism#消耗|消耗]]]
-本技能被[[doc/build/keyword/mechanism#丢弃|丢弃]]或[[doc/build/keyword/mechanism#消耗|消耗]]时，对自身造成以下效果：
-- 移除自身的所有[[doc/build/keyword/effect#过度清醒 X|过度清醒]]；
+本技能卡被[[doc/build/keyword/mechanism#丢弃|丢弃]]或[[doc/build/keyword/mechanism#消耗|消耗]]时，对自身造成以下效果：
+- **移除自身的所有[[doc/build/keyword/effect#过度清醒 X|过度清醒]]层数和震颤层数**；
 - 获得 1 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]；
 - [[doc/build/keyword/mechanism#消耗|消耗]]此卡。
 
 #### 穿刺针法
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2
 
-[使用时] 恢复 1 [[library#COST|COST]]
-	获得 5 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
-	每有 1 层[[doc/build/keyword/effect#航天 P/X|航天]]强度，额外使[[doc/build/keyword/effect#造成突刺伤害增加 X%|造成突刺伤害增加 2%]].
+[使用时] 
+- 恢复 1 [[library#COST|COST]]
+- 获得 5 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
+- 每有 1 层[[doc/build/keyword/effect#航天 P/X|航天]]强度，额外使[[doc/build/keyword/effect#造成突刺伤害增加 X%|造成突刺伤害增加 2%]].
 ##### 远程 7-11 | 突刺 Lv+2
 [命中时] 施加 3 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数。
 ##### 远程 6-9 | 突刺 Lv+1
-[命中时] 施加 3 层[[doc/build/keyword/effect#震颤 X|震颤]]；
-	额外造成 2 点突刺伤害。
+[命中时] 
+- 施加 3 层[[doc/build/keyword/effect#震颤 X|震颤]]；
+- 额外造成 2 点突刺伤害。
 ##### 远程 5-9 | 突刺 Lv+0
 造成暴击伤害 +50% 。
-[命中时] [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次；
-	额外造成 3 点突刺伤害。
+[命中时]
+- [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次；
+- 额外造成 3 点突刺伤害。
 
 #### 胆敢再犯？
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2
 
 \[[[doc/build/keyword/mechanism#清算反击|清算反击]]]
-[命中时] 获得 3 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]；
-	获得 12 点[[doc/build/keyword/mechanism#护盾 X|护盾]]。
 [使用时] 每有 1 层[[doc/build/keyword/effect#航天 P/X|航天]]强度，额外使[[doc/build/keyword/effect#造成突刺伤害增加 X%|造成突刺伤害增加 2%]].
+[命中时]
+- 获得 3 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]；
+- 获得 12 点[[doc/build/keyword/mechanism#护盾 X|护盾]]。
 ##### [远程 7-14] | 突刺 Lv+0
 造成暴击伤害 +20% 。
-[命中时] 施加 2 层[[doc/build/keyword/effect#震颤 X|震颤]]与 1 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数；
-	额外造成 4 点突刺混乱伤害。
+[命中时] 
+- 施加 2 层[[doc/build/keyword/effect#震颤 X|震颤]]与 1 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数；
+- 额外造成 4 点突刺混乱伤害。
 [攻击后] 恢复 1 [[library#COST|COST]]。
+
+---
+
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -1671,14 +1691,14 @@ Character Vol.1 - 咸阳市实验中学篇
 [[doc/build/keyword/effect#造成突刺伤害增加 X%|造成突刺伤害增加 20%]]。
 
 ### 下定的决心
-首次[[library#陷入混乱|陷入混乱]]时解除混乱，并恢复 50% 混乱抗性；
+**首次[[library#陷入混乱|陷入混乱]]时，解除混乱**，并恢复 50% 混乱抗性；
 当前回合混乱抗性不会低于 1 点。
 
 ### 为兑现自己的赌约
 [暴击命中时] 下回合获得 1 层[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加]]（每回合最多 3 次）
 
 ### 开启：演出
-[回合开始] 若自身拥有[[doc/build/keyword/effect#集中射击架势 X|集中射击架势]]，根据其层数，向手中置入特定技能：
+[回合开始] 若自身拥有[[doc/build/keyword/effect#集中射击架势 X|集中射击架势]]，根据其层数，向手中置入特定卡牌：
 - **3 层**：置入\[[[#第一支舞 x0|第一支舞]]]
 - **2 层**：置入\[[[#第二支舞 x0|第二支舞]]]
 - **1 层**：置入\[[[#最后一舞 x0|最后一舞]]]
@@ -1725,6 +1745,7 @@ Character Vol.1 - 咸阳市实验中学篇
 > 体重 | 85 kg
 > 年龄 | 18
 > 喜好 | 游戏《三角洲行动》、乒乓球运动
+> ---
 > 高三 29 班的学生。
 > 身着 JK 服的杨依锦。
 > 为兑现自己的承诺而站在众人面前，全新而大胆的服饰，立于台前，片刻间为学生们所关注。
@@ -1735,31 +1756,27 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
 
 #### 计划休眠
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1 | 懒惰 I
 
 对自身造成以下效果：
 - 获得 2 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]。
-[回合结束] 若此牌仍在手中，复制 1 张加入手牌。
+[回合结束] 若此牌仍在手中，将 1 张本卡牌的复制品加入手牌。
 
 #### 计划清醒
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 暴食 V
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 暴食 IV
 
 对自身造成以下效果：
-- 获得 1 层[[doc/build/keyword/effect#过度清醒 X|过度清醒]]。
+- **获得 1 层[[doc/build/keyword/effect#过度清醒 X|过度清醒]]**。
 - 向手中置入 1 张\[[[#放弃征战，投入休眠 x0|放弃征战，投入休眠]]]。
 
 #### 放弃征战，投入休眠
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x0
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x0
 
 \[[[doc/build/keyword/mechanism#消耗|消耗]]]
-本技能被[[doc/build/keyword/mechanism#丢弃|丢弃]]或[[doc/build/keyword/mechanism#消耗|消耗]]时，对自身造成以下效果：
-- 移除自身的所有[[doc/build/keyword/effect#过度清醒 X|过度清醒]]；
+本技能卡被[[doc/build/keyword/mechanism#丢弃|丢弃]]或[[doc/build/keyword/mechanism#消耗|消耗]]时，对自身造成以下效果：
+- **移除自身的所有[[doc/build/keyword/effect#过度清醒 X|过度清醒]]层数与震颤层数**；
 - 获得 1 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]；
 - [[doc/build/keyword/mechanism#消耗|消耗]]此卡。
 
@@ -1777,15 +1794,16 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 闪避 6-9 | Lv+2
 [闪避成功时] 施加 2 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 ##### 近战 4-5 | 突刺 Lv+0
-[命中时] 施加 3 层[[doc/build/keyword/effect#流血 X|流血]]与 2 层[[doc/build/keyword/effect#震颤 X|震颤]]。
-	自身每有 2 层[[doc/build/keyword/effect#震颤 X|震颤]]，额外造成 1 点突刺伤害。
+[命中时]
+- 施加 3 层[[doc/build/keyword/effect#流血 X|流血]]与 2 层[[doc/build/keyword/effect#震颤 X|震颤]]。
+- 自身每有 2 层[[doc/build/keyword/effect#震颤 X|震颤]]，额外造成 1 点突刺伤害。
 
 #### 防守
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x2
 
 [使用时] 获得 2 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数。
 ##### 招架 7-10 | Lv+0
-若目标使用了攻击骰子，使威力+2.
+**若目标使用了攻击骰子，使威力+2**.
 ##### 闪避 5-8 | Lv+0
 [闪避成功时] 恢复 2 点[[library#理智 / Sanity|理智]]。
 
@@ -1796,7 +1814,7 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 远程 6-10 | 斩击 Lv+1
 [命中时] 施加 2 层[[doc/build/keyword/effect#流血 X|流血]]与 2 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 ##### 招架 5-9 | Lv+0
-若目标使用了攻击骰子，使威力+3.
+**若目标使用了攻击骰子，使威力+3**.
 [拼点胜利] 施加 2 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 
 #### "扫腿舞"
@@ -1813,9 +1831,9 @@ Character Vol.1 - 咸阳市实验中学篇
 #### “擦玻璃”
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1
 
-[使用时] 若本技能是从\[[[#“扫腿舞” x1|“扫腿舞”]]]变化而来，恢复 1 [[library#COST|COST]]。
-造成伤害必定暴击且暴击伤害+50%；
-使用本技能期间，自身的[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数不会减少；
+[使用时] 若本卡牌是从\[[[#“扫腿舞” x1|“扫腿舞”]]]变化而来，恢复 1 [[library#COST|COST]]。
+**造成伤害必定暴击且暴击伤害+50%**；
+**使用本卡牌期间，自身的[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数不会减少**；
 自身每有 5 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度，使威力+1（最多+4）
 ##### 闪避 13-19 | Lv+5
 [闪避成功时] 恢复 3 点[[library#理智 / Sanity|理智]]。
@@ -1844,7 +1862,7 @@ Character Vol.1 - 咸阳市实验中学篇
 5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1
 
 对自身造成以下效果：
-- 下回合获得 3 层[[doc/build/keyword/effect#集中射击架势 X|集中射击架势]]。
+- 下回合获得 **3 层[[doc/build/keyword/effect#集中射击架势 X|集中射击架势]]**。
 
 #### 第一支舞
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x0
@@ -1876,9 +1894,19 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ---
 
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
 # 高艳
 #pRA/角色/咸阳市实验中学/明志阁生物办/高艳 #pRA/角色/神秘显现/一般 #pRA/角色/神秘显现/一般装甲 
-> [!warning] 尚未完成的角色
+
 ## 基本资料
 > [!note]+ [[library#成长系数|成长系数]] | 1.10
 > 等级 | 体力 | 混乱抗性
@@ -1902,6 +1930,15 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ### 宽以待人
 目标每有 2 种[[doc/build/keyword/index#负面状态效果|负面状态效果]]，使守备骰子威力+1（最多+6）
+
+> *与[[#张峰强]]完全不同，我从未听过她骂人说过什么脏字。*
+
+### 技术普及
+\[仅在编队中存在[[#任振雄]]时触发]
+若[[#任振雄]]的攻击使得敌方单位[[mechanism#陷入混乱|陷入混乱]]，自身使用特定卡牌追加攻击。
+
+> *“你看这就很好。什么时候给隔壁 30 班也搞一个？”*
+> *“改天吧。”*
 
 ---
 
@@ -1951,30 +1988,29 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
 
 #### “我们豪班”
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x1
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 稀有 | x1
 
 [使用时] 抽取 1 张卡牌。
-##### 治疗 11-21 | Lv+0
+##### 群体治疗 11-21 | Lv+0
 [治疗时] 使目标和自身恢复 5 点混乱抗性。
 
 #### 提醒
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x1
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
 
 ##### 闪避 3-6 | Lv+2
-[闪避成功时] 恢复 2 点[[library#理智 / Sanity|理智]]（每回合最多 10 点）
+[闪避失败] 恢复 5 点[[library#理智 / Sanity|理智]]。
+[闪避成功] 恢复 2 点[[library#理智 / Sanity|理智]]（每回合最多 10 点）
 ##### 远程 2-5 | 突刺 Lv+0
 [命中时] 下回合施加 2 层[[doc/build/keyword/effect#沉沦 X|沉沦]]。
 
 #### 平静待人
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x1
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
 
-[使用时] 恢复 1 [[library#COST|COST]]并抽取 1 张卡牌
+[使用时]
+- 恢复 1 [[library#COST|COST]] 并抽取 1 张卡牌；
+- 移除自身的情绪。
 ##### 防御 8-14 | Lv+0
 
 #### 防御回击
@@ -1982,26 +2018,32 @@ Character Vol.1 - 咸阳市实验中学篇
 
 [使用时] 抽取 2 张卡牌
 ##### 闪避 5-9 | Lv+5
-[闪避成功时] 恢复 2 点[[library#理智 / Sanity|理智]]（每回合最多 8 点）
-	施加 2 层[[doc/build/keyword/effect#沉沦 X|沉沦]]（每回合最多 6 层）
+[闪避成功] 
+- 恢复 2 点[[library#理智 / Sanity|理智]]（每回合最多 8 点）
+- 施加 2 层[[doc/build/keyword/effect#沉沦 X|沉沦]]（每回合最多 6 层）
 ##### 远程 5-8 | 突刺 Lv+3
-若自身理智不高于 +25 ，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 X%]]
+最终威力+1。
+若自身[[library#理智 / Sanity|理智]]不低于 +25 ，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 50%]]
 [命中时] 下回合施加 2 层[[doc/build/keyword/effect#易损 X|易损]]。
 
 #### 提问
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2
 
 \[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
-\[[[doc/build/keyword/mechanism#固定目标|固定目标]]] 固定选中理智最低的单位。
+\[[[doc/build/keyword/mechanism#固定目标|固定目标]]] 固定选中[[library#理智 / Sanity|理智]]最低的单位。
 [使用时] 抽取 1 张卡牌
 ##### 远程 5-6 | 突刺 Lv+1
-[命中时] 下回合施加 1 层[[doc/build/keyword/effect#沦陷 X|沦陷]]与 2 层[[doc/build/keyword/effect#守备等级降低 X|守备等级降低]]。
+**若目标[[library#理智 / Sanity|理智]]不高于 -25 ，使目标这一回合[[doc/build/keyword/effect#沉沦 X|沉沦]]层数不会减少。**
+[命中时] 
+- 施加 3 层[[doc/build/keyword/effect#沉沦 X|沉沦]]；
+- 下回合施加 1 层[[doc/build/keyword/effect#沦陷 X|沦陷]]与 2 层[[doc/build/keyword/effect#守备等级降低 X|守备等级降低]]。
 
 #### 这很好
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3
 
 [使用时] 抽取 1 张卡牌。
 ##### [远程 6-8] | 突刺 Lv+0
+**若目标使用攻击骰子，使威力 +5**。
 [命中时] 施加 2 层[[doc/build/keyword/effect#沉沦 X|沉沦]]与 1 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 
 #### 解读
@@ -2010,20 +2052,54 @@ Character Vol.1 - 咸阳市实验中学篇
 [使用时] 恢复 3 点[[library#理智 / Sanity|理智]]。
 ##### 近战 14-19 | 打击 Lv+5
 [命中时] 施加 2 层[[doc/build/keyword/effect#沦陷 X|沦陷]]与 2 层[[doc/build/keyword/effect#守备等级降低 X|守备等级降低]]。
-##### 招架 7-9 | Lv+0
-[拼点失败] 下回合获得 1 层[[doc/build/keyword/effect#忍耐 X|忍耐]]。
+##### 招架 7-9 | Lv+3
+[拼点失败] 下回合获得 2 层[[doc/build/keyword/effect#忍耐 X|忍耐]]。
+
+> *娃呀，这个知识点是这样的。*
+> *——倒不至于酣畅淋漓，但也算有点启发吧。*
+
+#### “翻到下一页”
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3 | 忧郁 I
+
+[使用时] 使[[doc/build/keyword/effect#沉沦 X|沉沦]]层数不低于 5 层的目标本回合速度-2。
+##### 招架 6-10 | Lv+2
+[拼点胜利] 施加 3 层[[doc/build/keyword/effect#沉沦 X|沉沦]]。
+[拼点失败] 施加 5 层[[doc/build/keyword/effect#沉沦 X|沉沦]]。
+
+> *“翻到下一页，我们看下个知识点。”*
+
+#### “睡不醒的娃”
+5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 忧郁 IV
+
+[使用时] 目标每有 1 层[[doc/build/keyword/effect#沉沦 X|沉沦]]，使本卡牌骰子威力+1（最多+8）。
+**本卡牌单方面攻击时，使造成混乱伤害+300%。**
+##### 远程 14-20 | 突刺 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[拼点失败] 固定造成 1 点伤害。
+[拼点时] **拼点威力+10。若目标每有 1 颗[[mechanism#不可破坏的骰子|不可破坏的骰子]]，使本效果增加的拼点威力-2**（最多-10）
+[命中时] 施加 3 层[[doc/build/keyword/effect#沉沦 X|沉沦]]。
+[暴击命中时] 施加 6 层[[doc/build/keyword/effect#沉沦 X|沉沦]]，并使目标下回合获得 2 层[[doc/build/keyword/effect#沦陷 X|沦陷]]。
+[命中时 - 未破坏] **使目标下回合[[mechanism#陷入混乱|陷入混乱]]。**
+[攻击后] 若目标[[mechanism#陷入混乱|陷入混乱]]，恢复 3 [[library#COST|COST]] 并在下回合获得[[mechanism#抽卡增加|抽卡增加]] 1。
+
+> *“娃学习累了，让他睡一会吧。”*
 
 ### EIS 卡牌
 #### Rubisco
 5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 5 CD | 特殊
 
-若自身理智高于目标中理智最高的单位，每高 5 点，使威力+2（最多+12）
-若自身理智不低于 0 点，每高 1 点，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 2%]]。
-若自身理智低于 0 点，使理智影响骰子投掷相反。
+若自身[[library#理智 / Sanity|理智]]高于**目标中[[library#理智 / Sanity|理智]]最高**的单位，**每高 5 点，使威力+2**（最多+12）
+**若自身[[library#理智 / Sanity|理智]]不低于 0 点，每高 1 点，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 2%]]**。
+**若自身[[library#理智 / Sanity|理智]]低于 0 点，使理智影响骰子投掷相反。**
 ##### 远程 22-34 | AW. 4 | 斩击 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时 - 未破坏] 施加[[doc/build/keyword/effect#心神不宁|心神不宁]]。
-[命中时] 施加 10 层[[doc/build/keyword/effect#震颤 X|震颤]]；
-	[[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次。
+[命中时 - 未破坏] **这一回合及下回合施加[[doc/build/keyword/effect#心神不宁|心神不宁]]**。
+[命中时] 
+- 施加 10 层[[doc/build/keyword/effect#震颤 X|震颤]]；
+- [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -2059,11 +2135,11 @@ Character Vol.1 - 咸阳市实验中学篇
 [回合开始] 若自身[[library#理智 / Sanity|理智]]不低于 0，获得 1 层[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加]]。
 
 ### 教学连携：英语课代表
-若编队中有 #pRA/标签/英语课代表 ，触发下列效果：
+若编队中的队友带有标签 #pRA/标签/英语课代表 ，触发下列效果：
 [开启战斗] ：
 - [命中时] 使英语课代表恢复 1-2 点混乱抗性。
 英语课代表与带有[[doc/build/keyword/mechanism#王桑的标记 X|王桑的标记]]的目标拼点失败时：
-- 若攻击使英语课代表体力低于 20% 时：在目标的攻击结束后，[[#杨瑞玉]]免费使用\[[[#你想干啥？ x1|你想干啥？]]]进行攻击（每人最多 1 次）；
+- 若攻击使英语课代表体力低于**上限 20%** 时：在目标的攻击结束后，[[#杨瑞玉]]免费使用\[[[#你想干啥？ x1|你想干啥？]]]进行攻击（每人最多 1 次）；
 
 英语课代表[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]时：
 - 自身获得 1 层[[doc/build/keyword/mechanism#援护招架 X|援护招架]]。
@@ -2120,12 +2196,6 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
-
----
 
 #### 单词听写
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3 | 懒惰 I
@@ -2139,8 +2209,6 @@ Character Vol.1 - 咸阳市实验中学篇
 > *“错一个，在下面改三遍。”*
 > *“如果让我在检查中还发现错误，错一个改十遍。”*
 
----
-
 #### 阅读理解
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x3 | 色欲 II
 
@@ -2152,8 +2220,6 @@ Character Vol.1 - 咸阳市实验中学篇
 
 > _读懂作者的意图，才能拿到高分。_
 
----
-
 #### 完形填空
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 色欲 II
 
@@ -2161,11 +2227,9 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 远程 8-12 | AW. 3 | 突刺 Lv+3
 [命中时] 施加 2 层[[doc/build/keyword/mechanism#王桑的标记 X|王桑的标记]]和 3 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 ##### 远程 7-10 | AW. 3 | 突刺 Lv+2
-[命中时] [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次（对每个目标独立计算）。
+[命中时] [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次。
 
 > _这篇文章的逻辑，需要你们自己填充。_
-
----
 
 #### 你想干啥？
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x2 | 暴怒 II
@@ -2173,6 +2237,7 @@ Character Vol.1 - 咸阳市实验中学篇
 \[[[doc/build/keyword/mechanism#清算反击|清算反击]]]
 [使用时] 
 - 失去 60 点理智（不会使理智低于 -40 ）
+- 使自身生气；
 - 获得 3 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度。
 若目标每有 3 层[[doc/build/keyword/mechanism#王桑的标记 X|王桑的标记]]，使[[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 33%.]]
 [使用后] 恢复 40 点理智。
@@ -2182,8 +2247,6 @@ Character Vol.1 - 咸阳市实验中学篇
 [命中时] [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次。
 
 > *“你刚说啥？再说一遍？”*
-
----
 
 #### 英语讲解
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x2
@@ -2199,8 +2262,6 @@ Character Vol.1 - 咸阳市实验中学篇
 > _她在教室里讲的口干舌燥。_
 > _——希望学生们能从中受益良多吧。_
 
----
-
 #### 翻白眼
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x0
 
@@ -2209,9 +2270,7 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 招架 7-12 | Lv+3 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时] 施加 3 层[[doc/build/keyword/effect#震颤 X|震颤]].
 
-> *人家为大家服务，你还挑上了？*
-
----
+> *“人家为大家服务，你还挑上了？”*
 
 #### 提示
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x1 | 色欲 II
@@ -2228,33 +2287,25 @@ Character Vol.1 - 咸阳市实验中学篇
 若自身理智不高于 -20，使本骰子威力+2。
 [命中时 - 未破坏] [[doc/build/keyword/mechanism#震颤引爆|震颤引爆]] 1 次。
 
----
-
 #### 沉默
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x2 | 傲慢 I
 
 对自身造成以下效果：
 - 这一回合获得 1 层[[doc/build/keyword/effect#忍耐 X|忍耐]]。
 
----
-
 #### 还有……
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x2 | 嫉妒 II
 
 [装备时] 若装备的上一张卡牌是[[doc/build/keyword/mechanism#攻击卡|攻击卡]]，恢复 2 COST。
 ##### 远程 7-9 | 打击 Lv+2
-若目标使用了攻击骰子，使本骰子威力-2。
+**若目标使用了攻击骰子，使本骰子威力-2**。
 [命中时] 施加 4 层[[doc/build/keyword/effect#震颤 X|震颤]]。
-
----
 
 #### 思索
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 暴食 II
 
 对自身造成以下效果：
 - 抽取 4 张卡。
-
----
 
 #### 出去抄去！
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 傲慢 III
@@ -2263,6 +2314,16 @@ Character Vol.1 - 咸阳市实验中学篇
 [使用时] 抽取 1 张卡
 ##### 远程 7-18 | 突刺 Lv+3 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时 - 未破坏] 使目标[[doc/build/keyword/mechanism#丢弃|丢弃]] 1 张手牌。
+
+---
+
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -2290,7 +2351,7 @@ Character Vol.1 - 咸阳市实验中学篇
 [[library#情感等级 / Emotion Level|情感等级]]到达 III 时额外+1。
 
 ### 疲惫积累
-[开启战斗] 失去固定为上限 25% 的体力（不会使体力低于 40% ）
+[开启战斗] 失去固定为**上限 25%** 的体力（不会使体力低于 40% ）
 
 ### 对策：急进学习
 [第一回合开始] 抽取 2 张卡牌。
@@ -2348,12 +2409,6 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
-
----
 
 #### 集中精神
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
@@ -2361,8 +2416,6 @@ Character Vol.1 - 咸阳市实验中学篇
 [使用时] 下回合获得[[doc/build/keyword/effect#神秘特效增加 X%|神秘特效增加 50%]]（每回合 1 次）
 ##### 招架 5-8 | Lv+0
 若目标使用攻击骰子，使威力+1 。
-
----
 
 #### 应对：我的思绪在空中显现
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x3
@@ -2375,8 +2428,6 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 集中
 自身获得[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 20%]]（ 1 回合）
 
----
-
 #### 应答
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x2 | 傲慢 II
 
@@ -2388,35 +2439,6 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 远程 +0-3 | 突刺 Lv+1
 [命中时] 施加 2 级[[effect#破裂 P/X|破裂]]强度。
 
----
-
-#### 斩击
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1
-
-##### 近战 5-7 | 斩击 Lv+0
-
----
-
-#### 突刺
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1
-
-##### 近战 5-7 | 突刺 Lv+0
-
----
-
-#### 打击
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1
-
-##### 近战 5-7 | 打击 Lv+0
-
----
-
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
----
-
 #### 熬夜征战
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#能力卡|能力卡]] | 罕见 | x1 | 暴食 II
 
@@ -2425,8 +2447,6 @@ Character Vol.1 - 咸阳市实验中学篇
 - 抽取 1 张卡牌。
 
 > _熬夜伤身。_
-
----
 
 #### 道歉
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 忧郁 IV
@@ -2444,17 +2464,13 @@ Character Vol.1 - 咸阳市实验中学篇
 > _说实话，我就没见他发火……更令我惊讶的是，他居然会站在讲台上向大伙道歉。_
 > _——他的未来必然是光明的。_
 
----
-
 #### 感叹
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x1 | 色欲 III
 
 ##### 治疗 30-42 | Lv+2
-[治疗时] 若目标不为自身：
+[治疗时]
 - 使其恢复 10 点理智；
 - 下回合使其获得 2 层[[effect#强壮 X|强壮]]。
-
----
 
 #### 做题
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1
@@ -2462,8 +2478,6 @@ Character Vol.1 - 咸阳市实验中学篇
 对自身造成以下效果：
 - 下回合恢复 1 COST；
 - 获得 7 点[[mechanism#护盾 X|护盾]]。
-
----
 
 #### 大赦天下
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1
@@ -2477,19 +2491,27 @@ Character Vol.1 - 咸阳市实验中学篇
 > _他很少这么做——给大伙说没有英语作业。_
 > _——这种话一般会是我说。偶然一次没有作业不会有什么大问题。_
 
----
-
 #### 求解
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1 | 暴食 III
 
 [仅可选中友方单位]
 ##### 近战 9-13 | 突刺 Lv+3 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-固定造成 0 点伤害。
+**固定造成 0 点伤害**。
 [命中时]
 - 若目标为教师：自身获得 1 层[[effect#攻击等级增加 X|攻击等级增加]]和 1 层[[effect#守备等级增加 X|守备等级增加]]；
 - 目标下回合[[mechanism#抽卡增加 X|抽卡增加]] 2 张。
 
 > _其实他是找老师问题的常客。_
+
+---
+
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -2575,10 +2597,6 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3
-
-##### 防御 6-9 | Lv+0
 
 #### 助力
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 稀有 | x1 | 色欲 IV
@@ -2668,6 +2686,16 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ---
 
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
 # 郭建军 绽放EIS::至终的纯洁工匠
 #pRA/角色/咸阳市实验中学/明志阁数学办/郭建军_绽放EIS-至终的纯洁工匠 #pRA/角色/神秘显现/振动 #pRA/角色/神秘显现/一般装甲 
 ## 基本资料
@@ -2698,12 +2726,12 @@ Character Vol.1 - 咸阳市实验中学篇
 	- 随后，使层数减至1/3（向下取整）
 - [回合结束] 获得 X% [[effect#承伤率降低 X%|承伤率降低]]并使层数减半（向下取整）
 [仅在??(90)级生效]
-若仍有友方角色在场，自身体力不会低于 1 点。
+**若仍有友方角色在场，自身体力不会低于 1 点**。
 
 > _他闪耀着一种坚韧之美。_
 
 ### 自我的绽放
-自身使用的带有[[mechanism#不可破坏的骰子|不可破坏的骰子]]的卡牌[[mechanism#无法逃脱|无法逃脱]]。
+**自身使用的带有[[mechanism#不可破坏的骰子|不可破坏的骰子]]的卡牌[[mechanism#无法逃脱|无法逃脱]]**。
 
 > _在他持之以恒的倾心教育下，无人能与他争辩。_
 
@@ -2713,7 +2741,7 @@ Character Vol.1 - 咸阳市实验中学篇
 > _这将会允许对象完全展现自己的力量。_
 
 ### 至真至诚
-自身[[mechanism#震颤引爆|震颤引爆]]时，[[effect#震颤 X|震颤]]层数只会衰减到其原本的 90% ，而非 2/3 （向上取整）
+自身[[mechanism#震颤引爆|震颤引爆]]时，[[effect#震颤 X|震颤]]层数只会衰减到其原本的 **90%** ，而非 2/3 （向上取整）
 
 > _无人质疑他的专注与真诚。_
 
@@ -2722,13 +2750,13 @@ Character Vol.1 - 咸阳市实验中学篇
 ## [[library#理智 / Sanity|理智]]
 ### [[library#士气低落|士气低落]] | 不曾放弃
 持续对自身造成以下效果：
-对每回合首次攻击的目标下回合施加[[mechanism#对决|对决]]。
+对每回合**首次攻击**的目标下回合施加[[mechanism#对决|对决]]。
 
 ### [[library#恐慌|恐慌]] | 一名老师的执着
 [[mechanism#丢弃|丢弃]]所有手牌，将 1 张\[[[#绽放 EIS显现：至终的纯洁工匠]]]置入手中。
 这一回合内，
 - [[mechanism#无法抽卡|无法抽卡]]；
-- 自身的速度设为无穷大。
+- 自身的速度设为**无穷大**。
 
 下回合开始时**初始化[[library#理智|理智]]**。
 
@@ -2768,18 +2796,18 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 教授技法
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 色欲 IV
 
-若目标使用带有[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]，或远程攻击骰子，或守备骰子的卡牌，每有 1 颗骰子，使本卡牌基础威力+5（符合多个条件的骰子不会重复套用此效果）
+**若目标使用带有[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]，或远程攻击骰子，或守备骰子的卡牌，每有 1 颗骰子，使本卡牌基础威力+5**（符合多个条件的骰子不会重复套用此效果）
 ##### 5 群体攻击-清算 7-13 | 突刺 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]] [[doc/build/keyword/mechanism#截除骰子|截除骰子]]
-固定造成 0 点混乱伤害。
+**固定造成 0 点混乱伤害**。
 [拼点失败] 这一回合内获得 2 层[[effect#强壮 X|强壮]]。
 
 #### 指名谈话
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x2 | 色欲 IV
 
 [固定目标] 选中体力最低的一名友方角色。
-若目标混乱抗性不高于 50% ，使骰子威力+3.
+若目标混乱抗性不高于**上限 50%** ，使骰子威力+3.
 ##### 5 治疗 10-20 | Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-若目标体力不高于 40% ，重复使用 1 次本骰子
+若目标体力不高于**上限 40%** ，**重复使用 1 次本骰子**
 
 #### 指点迷津
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x2 | 色欲 III
@@ -2788,7 +2816,7 @@ Character Vol.1 - 咸阳市实验中学篇
 若目标混乱抗性不高于 50% ，使基础威力+3.
 ##### 5 治疗 9-17 | Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [治疗时] 
-- [[mechanism#净化|净化]]目标所有负面效果；
+- **[[mechanism#净化|净化]]目标所有负面效果**；
 - 施加 2 层[[effect#振奋 X|振奋]]和 2 层[[effect#守护 X|守护]]。
 
 #### 备课
@@ -2801,15 +2829,15 @@ Character Vol.1 - 咸阳市实验中学篇
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#能力卡|能力卡]] | 普通 | x1 | 忧郁 IV
 
 \[[[mechanism#保留|保留]]]
-使用守备骰子时，额外获得等同于骰子最终威力的[[mechanism#护盾 X|护盾]]。
+使用**守备骰子**时，额外获得等同于**骰子最终威力**的[[mechanism#护盾 X|护盾]]。
 
 #### “你得警醒，这么下去可不行”
 5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1
 
-与本卡牌拼点期间双方不受威力增减影响。
+与本卡牌拼点期间**双方不受威力增减影响**。
 [命中时] 施加 4 层[[effect#烧伤 X|烧伤]]与 6 层[[effect#震颤 X|震颤]]。
 ##### 远程 9-17 | AW. 3 | 突刺 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-若目标带有[[mechanism#对决|对决]]，使本骰子变为[[doc/build/keyword/mechanism#截除骰子|截除骰子]]。
+**若目标带有[[mechanism#对决|对决]]，使本骰子变为[[doc/build/keyword/mechanism#截除骰子|截除骰子]]**。
 [命中时] [[mechanism#振幅转换|振幅转换]]为[[effect#灼热震颤 X|灼热震颤]]。
 ##### 远程 8-13 | AW. 3 | 突刺 Lv+5
 ##### 远程 7-10 | AW. 3 | 突刺 Lv+5
@@ -2817,18 +2845,18 @@ Character Vol.1 - 咸阳市实验中学篇
 #### “把时间交给你们”
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x2
 
-与本卡牌拼点期间双方不受威力增减影响。
+与本卡牌拼点期间**双方不受威力增减影响**。
 [使用时] 获得 5 点[[mechanism#护盾 X|护盾]]。
 ##### 招架 7-9 | Lv+5
-[回合结束] 若自身带有[[mechanism#护盾 X|护盾]]，下回合获得[[effect#隐秘|隐秘]]。
+[回合结束] **若自身带有[[mechanism#护盾 X|护盾]]，下回合获得[[effect#隐秘|隐秘]]**。
 
 #### “你们自己看着办！”
 6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
 
 [使用时] 使自身[[library#生气/愤怒/狂怒|愤怒]]
-[[library#生气/愤怒/狂怒|生气/愤怒/狂怒]]发挥效用增加 100%。
+**[[library#生气/愤怒/狂怒|生气/愤怒/狂怒]]发挥效用增加 100%**。
 ##### 18 远程 +12-18 | 斩击 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-若目标使用守备骰子，使基础威力+60 并使本骰子变为[[doc/build/keyword/mechanism#抹杀骰子|抹杀骰子]]。
+**若目标使用守备骰子，使基础威力+60 并使本骰子变为[[doc/build/keyword/mechanism#抹杀骰子|抹杀骰子]]**。
 [命中时 - 未破坏] [[mechanism#震颤引爆|震颤引爆]] 3 次。
 [命中时] 施加 9 层[[effect#烧伤 X|烧伤]]与 12 层[[effect#震颤 X|震颤]]
 
@@ -2836,26 +2864,26 @@ Character Vol.1 - 咸阳市实验中学篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x0 | 傲慢 IV
 
 \[[[mechanism#消耗|消耗]]]
-这一回合内，自身的理智对骰子掷出影响相反。
-本卡牌[[mechanism#无法逃脱|无法逃脱]]。
+**这一回合内，自身的理智对骰子掷出影响相反**。
+**本卡牌[[mechanism#无法逃脱|无法逃脱]]**。
 ##### 群体攻击-清算 59-96 | Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]] [[doc/build/keyword/mechanism#截除骰子|截除骰子]] [[doc/build/keyword/mechanism#抹杀骰子|抹杀骰子]]
-[命中时 - 未破坏] 目标每有 3 层[[effect#震颤 X|震颤]]，就[[mechanism#震颤引爆|震颤引爆]] 1 次（最多 10 次）
+[命中时 - 未破坏] **目标每有 3 层[[effect#震颤 X|震颤]]，就[[mechanism#震颤引爆|震颤引爆]] 1 次**（最多 10 次）
 [攻击后] 下回合[[mechanism#无法行动|无法行动]]。
 
 #### 恐怖
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1 | 嫉妒 III
 
 \[[[mechanism#消耗|消耗]]]
-对 1 名指定目标造成以下效果：
+对 **1 名指定目标**造成以下效果：
 - 施加 99 层[[effect#易伤 X|易伤]]。
 
 #### “反对盲目刷题”
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 暴怒 IV
 
 [使用时] 使自身[[library#生气/愤怒/狂怒|愤怒]]
-目标身上每有 1 中负面状态效果，使基础威力+3（最多+15）
+**目标身上每有 1 种负面状态效果，使基础威力+3**（最多+15）
 ##### 12 远程 +4-12 | AW. 3 | 打击 Lv+3 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时 - 未破坏] [[mechanism#驱散|驱散]]目标至多 2 种正面状态效果
+[命中时 - 未破坏] [[mechanism#驱散|驱散]]目标**至多 2 种**正面状态效果
 [命中时] 施加 8 层[[effect#震颤 X|震颤]]并[[mechanism#震颤引爆|震颤引爆]] 1 次
 
 #### 批评
@@ -2871,10 +2899,65 @@ Character Vol.1 - 咸阳市实验中学篇
 [使用时] 恢复 1 COST
 [命中时] 施加 2 层[[effect#烧伤 X|烧伤]]与 5 层[[effect#震颤 X|震颤]]。
 ##### 远程 9-16 | 突刺 Lv+5
-[拼点失败] 破坏目标当前骰子
+[拼点失败] **破坏目标当前骰子**
 ##### 招架 5-9 | Lv+4
 ##### 远程 5-8 | 突刺 Lv+4
 [命中时] 施加 4 层[[effect#烧伤 X|烧伤]]与 4 层[[effect#震颤 X|震颤]]。
+
+---
+
+### EIS 卡牌
+#### 发火
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 1 CD | 特殊 | 暴怒 IV
+
+[使用时] 
+- 获得 5 层[[doc/build/keyword/effect#烧伤 X|烧伤]]；
+- 使自身[[library#生气/愤怒/狂怒|生气]]。
+##### 远程 5-9 | AW. 2 | 突刺 Lv+0
+[命中时] 施加 2 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
+
+#### 互相体谅
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 3 CD | 特殊
+
+[使用时] 恢复 3 COST
+##### [近战 6-9] | 打击 Lv+0
+**本骰子不会被[[doc/build/keyword/mechanism#消耗|消耗]]**，可以重复使用。
+
+> *这是他常说的一句话。*
+> *面对学校的欺压、生活的不如意也只是抱怨，面对学生“弱智”的问题丝毫没有不耐烦，而是充满热情。*
+
+#### 这不合适吧？
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 4 CD | 特殊 | 暴怒 III
+
+对 **1 名指定敌方角色**造成以下效果：
+- **这一回合获得[[doc/build/keyword/effect#威力增减无效|威力增减无效]]**。
+
+#### 你们自己看着办
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 0 CD | 特殊 | 嫉妒 IV
+
+\[[[doc/build/keyword/mechanism#消耗|消耗]]]
+对自身造成以下效果：
+- **回满 COST**；
+- 抽取 3 张卡牌。
+
+---
+
+### EFW 卡牌
+#### 怒火直指
+6 [[library#COST|COST]] / 90 [[library#理智 / Sanity|理智]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 5 CD | 特殊 | 暴怒 IV | [[library#情绪侵蚀|狂怒情绪侵蚀]]
+
+**本回合自身的负面状态效果不会生效**。
+每消耗 3 层[[doc/build/keyword/effect#烧伤 X|烧伤]]，使基础威力+2（最多+6）。
+[命中时] 
+- 施加 6 层[[doc/build/keyword/effect#烧伤 X|烧伤]]；
+- 下回合获得 3 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
+##### 41 远程 -0-20 | 打击 Lv+10
+##### 远程 -0-12 | AW. 3 | 打击 Lv+10
+##### 远程 -0-8 | 打击 Lv+10
+最终威力+1。
+
+> *他难得向家长发了火。*
+> *尽管如此，大家还是很尊敬这位老师。比起统治力日渐衰弱的领导，我想，这大概就是人与人之间的差异吧……*
 
 ---
 
@@ -2963,10 +3046,6 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x2
-
-##### 防御 6-9 | Lv+0
 
 #### 学习专注
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x2 | 暴食 II
@@ -2979,7 +3058,7 @@ Character Vol.1 - 咸阳市实验中学篇
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x2 | 暴食 II
 
 对自身造成以下效果：
-- 这一回合内，进入[[effect#集中学习架势|集中学习架势]]。
+- **这一回合内，进入[[effect#集中学习架势|集中学习架势]]**。
 
 #### 沉思
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x2 | 忧郁 II
@@ -3008,7 +3087,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 瞄准弱点
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1
 
-目标卡牌每有 1 颗攻击骰子，使基础威力+3（最多+9）
+**目标卡牌每有 1 颗攻击骰子，使基础威力+3**（最多+9）
 ##### 4 远程 +3-5 | 突刺 Lv+3
 ##### 远程 +3-5 | 突刺 Lv+2
 ##### 远程 +3-5 | 突刺 Lv+1
@@ -3033,7 +3112,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 [可选择友方角色]
 ##### 近战 4-8 | 突刺 Lv+1 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-固定造成 0 点伤害。
+**固定造成 0 点伤害**。
 [命中时]
 - 若目标至少拥有 4 种正面状态效果：施加 1 层[[effect#拼点威力增加 X|拼点威力增加]]与 1 点[[effect#力量|力量]]；
 - 若目标不足 4 种正面状态效果：获得 1 层[[effect#拼点威力增加 X|拼点威力增加]]与 1 点[[effect#力量|力量]]。
@@ -3041,7 +3120,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 聚精会神
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#能力卡|能力卡]] | 稀有 | x1 | 暴食 III
 
-[回合开始] 根据自身的状态效果持续造成效果：
+[回合开始] 根据**自身的状态效果**持续造成效果：
 - 每有 2 种正面状态效果：这一回合内，获得 1 点[[effect#力量|力量]]。
 - 每有 3 种正面状态效果：获得 1 点[[effect#力量|力量]]。
 - 每有 2 种负面状态效果：这一回合内，失去 1 点[[effect#力量|力量]]。
@@ -3057,7 +3136,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 [使用时] 恢复 1 COST
 ##### 近战 6-8 | 突刺 Lv+1 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-若目标带有[[mechanism#对决|对决]]，使威力+3
+**若目标带有[[mechanism#对决|对决]]，使威力+3**
 [命中时] 下回合施加[[mechanism#对决|对决]]。
 
 #### 防守反击
@@ -3065,6 +3144,16 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ##### 招架 8-9 | Lv+3
 ##### 近战 6-8 | 突刺 Lv+2
+
+---
+
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -3143,10 +3232,6 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ## 牌组
 ### 一般
-#### 防御
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x1
-
-##### 防御 6-9 | Lv+0
 
 #### 谈论
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x1 | 色欲 II
@@ -3208,7 +3293,7 @@ Character Vol.1 - 咸阳市实验中学篇
 [命中时] 施加 1 层[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]（每回合最多 4 次）
 
 ### 震颤共振
-[命中时] 每当目标身上的[[doc/build/keyword/effect#震颤 X|震颤]]被[[doc/build/keyword/mechanism#震颤引爆|引爆]]时，若目标带有[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]，使此次[[doc/build/keyword/mechanism#震颤引爆|引爆]]追加等同于[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]层数的[[doc/build/keyword/mechanism#混乱伤害|混乱伤害]]，然后移除目标的[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]。
+[命中时] 每当目标身上的[[doc/build/keyword/effect#震颤 X|震颤]]被[[doc/build/keyword/mechanism#震颤引爆|引爆]]时，若目标带有[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]，使此次[[doc/build/keyword/mechanism#震颤引爆|引爆]]追加**等同于[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]层数**的[[doc/build/keyword/mechanism#混乱伤害|混乱伤害]]，然后移除目标的[[doc/build/keyword/mechanism#杨瑞玉的标记 X|杨瑞玉的标记]]。
 
 ---
 
@@ -3253,6 +3338,7 @@ Character Vol.1 - 咸阳市实验中学篇
 > 喜好 | 
 > ---
 > 高三 30 班的班主任；高三 29 班和高三 30 班的英语老师。
+> 而她终于怒不可遏，无可避免的一切发生了。
 
 > [!note]- 开发者评论
 > 
@@ -3266,20 +3352,20 @@ Character Vol.1 - 咸阳市实验中学篇
 
 [使用时] 3 回合内，[[mechanism#固定情绪|固定情绪]]为[[library#生气/愤怒/狂怒|狂怒]]。
 ##### 群体攻击-清算 24-32 | 打击 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]] [[doc/build/keyword/mechanism#截除骰子|截除骰子]]
-[命中时] 施加 8 层[[effect#易伤 X|易伤]]、[[effect#虚弱 X|虚弱]]、[[effect#脆弱 X|脆弱]]。
+[命中时] 施加 **8** 层[[effect#易伤 X|易伤]]、[[effect#疲软 X|疲软]]、[[effect#脆弱 X|脆弱]]。
 
 > _她为学生们的考试态度而暴走——尽管已经临近高考。_
 > *涉案学生已在班主任陪同下被严肃处理。*
 > 
-> *“我从未见过她如此的神态。看来那两个要吃不了兜着走了。”*
+> *“我从未见过她如此的神态。看来那两个要吃不了兜着走了。”——王家瑜*
 
 #### “给谁学呢？考不上大学与我有啥关系？”
 6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
 
 [使用时] 使自身[[library#生气/愤怒/狂怒|狂怒]]。
 目标每有 6 层[[effect#震颤 X|震颤]]，使骰子威力+2（最多+8）
-若只选中一名目标，使[[effect#伤害率增加 X%|伤害率增加 100%]]
-本卡牌进行[[mechanism#震颤引爆|震颤引爆]]时，[[effect#震颤 X|震颤]]层数不会衰减。
+若**只选中一名目标**，使[[effect#伤害率增加 X%|伤害率增加 100%]]
+**本卡牌进行[[mechanism#震颤引爆|震颤引爆]]时，[[effect#震颤 X|震颤]]层数不会衰减**。
 ##### 17 群体攻击-交锋 +0-2 | 打击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时] 施加 8 层[[effect#震颤 X|震颤]]。
 ##### 群体攻击-交锋 +0-2 | 打击 Lv+5
@@ -3296,10 +3382,10 @@ Character Vol.1 - 咸阳市实验中学篇
 
 \[[[mechanism#消耗|消耗]]]
 [使用时] 
-- 恢复上限 10% 的体力与混乱抗性。
+- 恢复**上限 10%** 的体力与混乱抗性。
 - 移除自身的情绪。
 ##### 防御 ??(64)-??(99) | Lv+5
-结束自身的回合。
+**结束自身的回合**。
 
 > *在说完这话后，她让班长取下了挂在某处的监控。*
 
@@ -3308,7 +3394,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 \[[[mechanism#保留|保留]]]
 ##### 招架 4-7 | Lv+4 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[拼点失败] 使目标下回合[[effect#心神不宁|心神不宁]]。
+[拼点失败] 使目标**下回合[[effect#心神不宁|心神不宁]]**。
 
 > *“该吃饭了！”*
 
@@ -3329,7 +3415,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 怒火积蓄
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3 | 暴怒 II
 
-[装备中] 恢复 2 COST并抽取 2 张卡牌；
+[装备中] **恢复 2 COST 并抽取 2 张卡牌**；
 [使用时] 失去 8 点体力与 20 点混乱抗性。
 ##### 招架 5-8 | Lv+1
 [拼点失败] 下回合获得 1 层[[effect#强壮 X|强壮]]。
@@ -3346,11 +3432,10 @@ Character Vol.1 - 咸阳市实验中学篇
 ##### 招架 7-8 | Lv+3
 ##### 招架 6-7 | Lv+2
 ##### [招架 5-7] | Lv+0
-本骰子可以重复使用。
+**本骰子可以重复使用**。
 
 #### “才考这么点”
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 嫉妒 II
-
 
 ##### 近战 5-11 | 突刺 Lv+2
 拼点威力+2
@@ -3362,7 +3447,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 [使用时] 恢复 1 COST
 ##### 近战 9-18 | 突刺 Lv+2
-[命中时] 下回合[[effect#封印 X|封印]]目标 1 颗速度骰子。
+[命中时] **下回合[[effect#封印 X|封印]]目标 1 颗速度骰子**。
 
 > *有学生拿着一套非常简单的英语试卷去找她，并声称“非常难”。*
 
@@ -3371,10 +3456,10 @@ Character Vol.1 - 咸阳市实验中学篇
 
 \[[[mechanism#不可拼点|不可拼点]]] \[[[mechanism#虚无|虚无]]] \[[[mechanism#消耗|消耗]]]
 ##### 远程 5-7 | 突刺 Lv+0
-无视[[mechanism#护盾 X|护盾]]
+**无视[[mechanism#护盾 X|护盾]]**。
 [命中时] 
 - [[mechanism#驱散|驱散]]目标至多 2 种正面状态效果；
-- [[mechanism#驱散|驱散]][[mechanism#护盾 X|护盾]]。
+- **[[mechanism#驱散|驱散]][[mechanism#护盾 X|护盾]]**。
 
 > *她能精准找到问题，至少我是这么认为……*
 
@@ -3382,7 +3467,6 @@ Character Vol.1 - 咸阳市实验中学篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x0
 
 \[[[mechanism#虚无|虚无]]] \[[[mechanism#消耗|消耗]]]
-描述
 ##### 7 远程 +4-7 | 突刺 Lv+5
 [命中时] 施加 4 层[[effect#攻击等级降低 X|攻击等级降低]]、[[effect#守备等级降低 X|守备等级降低]]。
 ##### 远程 +3-6 | 突刺 Lv+5
@@ -3390,11 +3474,13 @@ Character Vol.1 - 咸阳市实验中学篇
 
 > *她的方法应该相当有用。*
 
+---
+
 ### 特殊卡牌
 #### 深度研究
 3 [[library#COST|COST]] / 10 [[library#理智 / Sanity|理智]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 2 CD | 特殊 | 暴食 IV
 
-根据在战斗中使用过的次数触发效果：
+根据在**战斗中使用过的次数**触发效果：
 - **0 次**：将 1 张\[[[#“你们的问题是……”]]]置入手中。
 - **1 次**：将 1 张\[[[#“你们的问题是……”]]]、\[[[#对策]]]置入手中。
 - **2 次及以上**：
@@ -3402,6 +3488,16 @@ Character Vol.1 - 咸阳市实验中学篇
 	- 恢复 1 COST。
 
 > *透过无数时光的努力，这将会允许其洞察问题并尝试发现破局之法。*
+
+---
+
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
 ---
 
@@ -3437,8 +3533,8 @@ Character Vol.1 - 咸阳市实验中学篇
 > *我常常能够在操场上看到他的身影。*
 
 ### EIS::憎恶之人
-[[library#生气/愤怒/狂怒|生气/愤怒/狂怒]]发挥效用增加 25%。
-命中带有[[doc/build/keyword/effect#烧伤 X|烧伤]]的角色时，额外追加等同于其层数的混乱伤害。
+**[[library#生气/愤怒/狂怒|生气/愤怒/狂怒]]发挥效用增加 25%**。
+命中带有[[doc/build/keyword/effect#烧伤 X|烧伤]]的角色时，额外追加等同于其**层数**的混乱伤害。
 
 > *现在看来，再没有人比你“会讲话”*
 > *——可惜这是解决不了问题的。*
@@ -3500,7 +3596,7 @@ Character Vol.1 - 咸阳市实验中学篇
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x1 | 嫉妒 IV
 
 \[[[mechanism#清算反击|清算反击]]]
-若目标使用了[[library#守备骰子|守备骰子]]，使[[effect#造成伤害降低 X%|造成伤害降低 50%]]。
+**若目标使用了[[library#守备骰子|守备骰子]]，使[[effect#造成伤害降低 X%|造成伤害降低 50%]]**。
 ##### 24 [近战 -0-8] | 打击 Lv+0
 ##### [近战 -0-8] | 打击 Lv+0
 [命中时] 施加 2 层[[doc/build/keyword/effect#烧伤 X|烧伤]]
@@ -3584,7 +3680,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### “你看看可怕不可怕！”
 5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 色欲 IV
 
-若上一回合使用过[[doc/build/keyword/mechanism#攻击卡|攻击卡]]，则本卡耗能-2
+若**上一回合使用过[[doc/build/keyword/mechanism#攻击卡|攻击卡]]，则本卡耗能-2**
 ##### 9 群体攻击-交锋 +2-4 | 斩击 Lv+5
 ##### 群体攻击-交锋 +2-4 | 斩击 Lv+4
 [命中时] 施加 3 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
@@ -3595,7 +3691,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### “咋回事啊”
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x3
 
-与本卡牌拼点期间双方不受威力增减影响。
+与本卡牌拼点期间**双方不受威力增减影响**。
 ##### [近战 8-12] | 突刺 Lv+3
 [命中时] 施加 2 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
 
@@ -3620,8 +3716,7 @@ Character Vol.1 - 咸阳市实验中学篇
 #### 揣测
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1
 
-指定自身的一颗速度骰子：
-将其装备的卡牌的 1 张复制品加入手中。这张卡本回合内可以免费打出 1 次。
+指定自身的一颗速度骰子：将**其装备的卡牌的 1 张复制品**加入手中。这张卡本回合内可以**免费打出** 1 次。
 
 > *“你以为别人在夸你，其实已经在心里骂死你了！”*
 
@@ -3634,12 +3729,23 @@ Character Vol.1 - 咸阳市实验中学篇
 
 \[[[mechanism#清算反击|清算反击]]]
 ##### [近战 5-7] | 斩击 Lv+5
-摧毁本卡所有骰子，并将本回合内首次受到的[[doc/build/keyword/mechanism#攻击卡|攻击卡]]的配置完整复制。（不保留特效）
+**摧毁本卡所有骰子，并将本回合内首次受到的[[doc/build/keyword/mechanism#攻击卡|攻击卡]]的配置完整复制**。（不保留特效）
 将本卡的一张复制品加入弃牌堆。
 
 > *“你以为别人在欣赏你，其实他们在心里狠狠骂着你呢！”*
 
 ---
+
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
 # 冯向东 扭曲EIS::愁大怅惘之人
 #pRA/角色/咸阳市实验中学/明志阁语文办/冯向东_扭曲EIS-愁大怅惘之人  #pRA/角色/神秘显现/神秘 #pRA/角色/神秘显现/轻装甲
 ## 基本资料
@@ -3665,7 +3771,7 @@ Character Vol.1 - 咸阳市实验中学篇
 [[library#情感等级 / Emotion Level|情感等级]]到达 III 时额外+1。
 
 ### 绝望与惆怅
-[[library#悲伤/抑郁/绝望|悲伤/抑郁/绝望]]效用+50%，[[library#开心/狂喜/癫狂|开心/狂喜/癫狂]]效用-50%
+**[[library#悲伤/抑郁/绝望|悲伤/抑郁/绝望]]效用+50%，[[library#开心/狂喜/癫狂|开心/狂喜/癫狂]]效用-50%**
 己方角色倒下时，
 - 这一回合内，自身获得 2 层[[effect#拼点威力增加 X|拼点威力增加]]；
 - 接下来每回合开始时，获得 1 层[[effect#拼点威力增加 X|拼点威力增加]]。
@@ -3759,8 +3865,8 @@ Character Vol.1 - 咸阳市实验中学篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x0 | 忧郁 IV
 
 \[[[mechanism#消耗|消耗]]] \[[[mechanism#无差别攻击|无差别攻击]]] \[[[mechanism#坚定|坚定]]] \[[[mechanism#无法中止|无法中止]]]
-本卡牌[[mechanism#无法逃脱|无法逃脱]]。
-本卡触发目标的[[effect#沉沦 X|沉沦]]时，层数不会降低。
+**本卡牌[[mechanism#无法逃脱|无法逃脱]]**。
+**本卡触发目标的[[effect#沉沦 X|沉沦]]时，层数不会降低**。
 [使用时] 获得[[effect#伤害率增加 X%|伤害率增加 100%]]
 ##### 40 群体攻击-交锋 -2-4 | 斩击 Lv+5
 [命中时] 施加 3 层[[effect#守备等级降低 X|守备等级降低]]（2 回合）
@@ -3785,9 +3891,9 @@ Character Vol.1 - 咸阳市实验中学篇
 #### “我认了”
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 忧郁 IV
 
-[[mechanism#净化|净化]]自身所有负面状态效果。每[[mechanism#净化|净化]] 1 个，恢复 20 点混乱抗性；
+**[[mechanism#净化|净化]]自身所有负面状态效果**。每[[mechanism#净化|净化]] 1 个，恢复 20 点混乱抗性；
 使自身[[library#悲伤/抑郁/绝望|绝望]]；
-将 1 张\[[[#扭曲显现：流于绝望的沉沦]]]置于手中，并使其这一回合内可以免费打出 1 次。
+将 1 张\[[[#扭曲显现：流于绝望的沉沦]]]置于手中，并使其这一回合内可以**免费打出** 1 次。
 
 > *“一上课就是睡，叫起来就是说话，反正就是不学。”*
 > *他真是没法子了。*
@@ -3819,7 +3925,7 @@ Character Vol.1 - 咸阳市实验中学篇
 
 \[[[mechanism#援护招架 X|援护招架]] 专用]
 ##### [招架 8-10] | 突刺 Lv+0
-本骰子可以重复使用 1 次。
+**本骰子可以重复使用 1 次**。
 
 > *他显露出一种疲态。*
 
@@ -3841,7 +3947,7 @@ Character Vol.1 - 咸阳市实验中学篇
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 傲慢 IV
 
 \[[[mechanism#强效偏转|强效偏转]]]
-若目标使用守备骰子，使基础威力+2
+**若目标使用守备骰子，使基础威力+2**
 ##### 16 远程 -0-3 | 打击 Lv+3 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时] 施加 4 层[[effect#震颤 X|震颤]]。
 ##### 远程 -0-4 | 打击 Lv+2 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
@@ -3876,68 +3982,72 @@ Character Vol.1 - 咸阳市实验中学篇
 
 ---
 
-# 任振雄 扭曲EIS::执迷之人
-#pRA/角色/追忆档案馆/任振雄_扭曲EIS-执迷之人  #pRA/角色/神秘显现/分解 #pRA/角色/神秘显现/重装甲 
+### EIS 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
+
+---
+# 穆锐 EIS::技术的追求者
+#pRA/角色/咸阳市实验中学/明志阁物理办/穆锐_EIS-技术的追求者   #pRA/角色/神秘显现/一般 #pRA/角色/神秘显现/一般装甲 
 ## 基本资料
-> [!note]+ [[library#成长系数|成长系数]] | 1.11
+> [!note]+ [[library#成长系数|成长系数]] | 1.095
 > 等级 | 体力 | 混乱抗性
 > --- | --: | --:
-> 30 | 22 | 13
-> 40 | 65 | 39
-> 50 | 184 | 110
-> 60 | 524 | 314
-> ??(90) | ???(11996) | ???(7198)
+> 30 | 15 | 6
+> 40 | 37 | 16
+> 50 | 93 | 42
+> 60 | 231 | 104
 
 [[library#速度 / SPD|速度]] | 3-5
-[[library#神秘显现克制表|神秘显现]] | 分解 / 重装甲
-[[library#伤害抗性|伤害抗性]] | 斩击[0.5x/1x] / 突刺[0.75x/1.5x] / 打击[0.5x/0.5x]
-[[library#地形适性|地形适性]] | 街区[R] / 野外[R] / 室内[R]
+[[library#神秘显现克制表|神秘显现]] | 一般 / 一般装甲
+[[library#伤害抗性|伤害抗性]] | 斩击[1.5x/0.75x] / 突刺[1x/0.5x] / 打击[1x/0.75x]
+[[library#地形适性|地形适性]] | 街区[C] / 野外[B] / 室内[R]
 
 ---
 
 ## 被动
-### 速战速决 3
-[[library#速度骰子|速度骰子]]+1；
-[[library#情感等级 / Emotion Level|情感等级]]到达 III 时额外+1。
+### 速战速决 2
+[[library#速度骰子|速度骰子]]+2；
 
-### 扭曲
-根据自身的[[library#理智 / Sanity|理智]]值触发相应效果：
-- 若**不高于 0** ：自身的带有**疯狂**罪孽属性的卡牌耗能-1；
-- 若**高于 0** ：自身带有**哀叹**罪孽属性的卡牌耗能-1.
+### 倔强
+自身所有骰子转化为[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]。
+若骰子本身为[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]，使其威力+1。
 
-> *他者的本能。*
+> *老头真的很倔，你不可能比得过他。*
 
-### 扭曲显现
-> *一种完全的 EIS 显现，表明在缺失或暗淡的自主意志。似乎表明其正陷入迷失中。*
-> *需要进一步观察。*
+### 强硬
+**自身所有卡牌可以[[mechanism#强效偏转|强效偏转]]。**
 
-### EIS::执迷之人
-自身带有[[mechanism#不可破坏的骰子|不可破坏的骰子]]的卡牌不会被偏转。
+> _碰到他倔的时候，那真是没辙了。_
 
-> *他是纯粹的执迷不悟。*
+### 慧眼明察
+**自身不会从反击骰子中受到伤害**。
 
-### 祭品
-每次使用骰子时，失去上限 1% 的体力与上限 2% 的混乱抗性。（不会使体力低于 10% 或使混乱抗性低于 12% ）
-自身首次受到致死伤害时，无视该伤害，这一回合内体力不会低于 1 点。
-下回合恢复上限 20% 的体力与上限 30% 的混乱抗性，并获得[[effect#无我形态|无我形态]]。
+> *就这点雕虫小技，不足以撼动穆老师。*
 
-> *“其实就是暴走了而已。”*
+### EIS::技术追求者
+**免疫所有负面状态效果**。
+[拼点失败] 获得 1 层报错。
+
+> *我很少看到他的电脑出现问题。*
 
 ---
 
 ## [[library#理智 / Sanity|理智]]
-### [[library#士气低落|士气低落]] | 不屈
-自身首次陷入混乱时，改为恢复上限 50% 的混乱抗性。
+### [[library#士气低落|士气低落]] | 发怒
+**使用[[doc/build/keyword/mechanism#技能卡|技能卡]]后，获得 1 层[[effect#拼点威力增加 X|拼点威力增加]]**。
 
-> *他者的坚毅。*
+### [[library#恐慌|恐慌]] | PANIC
+若自身拥有 **EIS 卡牌**或 **EFW 卡牌**：
+- 这一回合内，获得[[mechanism#侵蚀状态|侵蚀状态]]。  
 
-### [[library#恐慌|恐慌]] | 执迷
-这一回合内，自身所有的卡牌可以免费打出。
-自身的所有骰子威力固定为 0 .
-所有[[doc/build/keyword/mechanism#攻击卡|攻击卡]]带有[[mechanism#无差别攻击|无差别攻击]]。
-下回合开始时**初始化[[library#理智|理智]]**。
-
-> *他者的悲哀。*
+否则： 
+- 这一回合内[[doc/build/keyword/mechanism#无法行动|无法行动]]；
+- 下回合开始时**初始化[[library#理智|理智]]**。
 
 ### 通常恢复[[library#理智 / Sanity|理智]]方式
 1. 处于[[doc/build/keyword/emotion#觉醒情绪|觉醒情绪]]
@@ -3953,301 +4063,153 @@ Character Vol.1 - 咸阳市实验中学篇
 ---
 
 ## 档案
-> [!info]+ 追忆档案馆
-> 追忆档案馆 | 馆长
-> 追忆图书馆 EIS | 执迷之人
+> [!info]+ 咸阳市实验中学
+> 明志阁物理办 | 物理老师
 > 
-> #pRA/标签/追忆档案馆 #pRA/标签/追忆档案馆-EIS #pRA/标签/人的解构形式 #pRA/标签/扭曲-EIS #pRA/标签/人的决战形式 
+> #pRA/标签/咸阳市实验中学 #pRA/标签/教师 #pRA/标签/人的不同面貌 #pRA/标签/EIS展现 
 
 > [!info]- 基本信息
-> 生日 | 09.09
-> 身高 | 170 cm
-> 体重 | 62 kg
-> 年龄 | 18
-> 喜好 | 电子设备、游戏、创作
+> 生日 | 
+> 身高 | 
+> 体重 | 
+> 年龄 | 
+> 喜好 | 
 > ---
-> 扭曲化的任振雄。
-> 他已经无药可救。
-
-> [!note]- 开发者评论
-> 
+> 一位过去的物理老师。
+> 追忆档案馆馆长偶然在这个世界线上观测到了这一 EIS 现象，于是他决定记录一下。
 
 ---
 
 ## 牌组
 ### 一般
-#### 决一死战
-6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 疯狂 IV
+#### 启动流程
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1
 
-[使用时] 失去上限 2% 的体力。
-[固定目标] 指定正面状态效果最多的单位。
-目标每有 2 种正面状态效果，使[[effect#造成伤害增加 X%|造成伤害增加 20%]]（最多 150%）
-##### 60 近战 -12-18 | 打击 Lv+5 | [[mechanism#截除骰子|截除骰子]]
-[命中时] [[mechanism#驱散|驱散]]目标所有的正面状态效果。
+\[[[mechanism#固有|固有]]]
+获得 3 级呼吸法强度与2层呼吸法层数。
+若自身**情感等级不高于 3** ，额外获得 **30** 点[[mechanism#护盾 X|护盾]]。
 
-> *他者的死战。*
+> *“先等它开机吧。”*
 
-#### 窒息
-5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x1 | 哀叹 IV
+#### 分析日志
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x1 | 傲慢 II
 
-[使用时] 失去上限 1.5% 的混乱抗性。
-[使用时] 这一回合内，获得[[effect#承伤率降低 X%|承伤率降低 25%]]
-##### 50 招架 -10-16 | Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]] [[mechanism#截除骰子|截除骰子]]
-[使用时 - 已破坏] 最终威力-30。
-[命中时 - 未破坏] 
-- 下一回合施加[[effect#心神不宁|心神不宁]]；
-- [[mechanism#净化|净化]]自身所有的负面状态效果。
+将自身的所有报错转化为故障记录，并将 1 张\[[[#修复错误]]]置入手中。
+**结束自身的回合**。
 
-> *他者的痛苦。*
+> *“即便是巅峰时期的他，也得要专心才能看出原因吧。毕竟他那会没有现在强大的 AI 工具，要看明白还是需要不少功夫的。”——任振雄，追忆档案馆馆长*
 
-#### 痛苦的真相
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 哀叹 IV
+#### 修复错误
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#辅助卡|辅助卡]] | 罕见 | x0
 
-\[[[mechanism#消耗|消耗]]]
+\[[[mechanism#保留|保留]]] \[[[mechanism#消耗|消耗]]]
+**仅在自身拥有故障记录时才可使用**。
+##### 群体治疗 15-18 | Lv+3
+**消耗所有故障记录**。每消耗 1 层故障记录，使此次治疗**命中时[[mechanism#净化|净化]] 1 种负面状态效果**。
+[命中时] 下回合施加 1 层[[effect#忍耐 X|忍耐]]。
+
+> *“这下没问题了。”*
+
+#### 主动出击
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 嫉妒 I
+
 [使用时] 
-- 失去上限 1% 的混乱抗性；
-- 若自身理智高于 0 点，将理智设为 0 点；
-- 失去所有 COST。
-[使用后] 
-- 使自身[[emotion#崩溃|崩溃]]；
-- 将 1 张\[[[curse#厄运|厄运]]]加入弃牌堆。
-本卡牌不受情绪影响。
-##### 群体攻击-清算 ??(99)-??(99) | 斩击 Lv+5 | [[mechanism#抹杀骰子|抹杀骰子]]
-[命中时] 
-- 目标失去 20 点理智；
-- 下一回合，将目标的情绪设为[[emotion#痛苦|痛苦]]；
-- 使目标[[mechanism#陷入混乱|陷入混乱]]。
+- 恢复 12 点混乱抗性；
+- 获得 1 层呼吸法层数。
+##### 远程 6-9 | 斩击 Lv+1
+[命中时] 获得 3 级呼吸法强度。
 
-> *挥之不去的阴影。*
+> *他决定看看这个网站。*
 
-#### 断缘-斩
-6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
+#### 不兼容警告
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3 | 忧郁 II
 
-##### 28 远程 -1-3 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时]
-- 这一回合及下一回合内，施加 5 层[[effect#流血 X|流血]]；
-- 施加 3 层[[effect#烧伤 X|烧伤]]。
-##### 远程 -1-3 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时 - 未破坏] 触发目标的[[effect#烧伤 X|烧伤]] 1 次，随后使目标的[[effect#烧伤 X|烧伤]]层数减半（向下取整）。
+**目标每有 1 种正面状态效果，使本卡牌骰子威力+2**（最多+10）。
+[命中时] **驱散目标所有正面状态效果**。每驱散1个，使自身获得1层呼吸法层数。
+##### [远程 9-12] | 打击 Lv+2
+造成伤害+50%。
 
-> *他希望与过去划分界限，就此一刀两断。*
-> *尽管这种联系脆弱不堪，可这缘分岂能有他决定的？*
+> *“诶，这软件怎么跑不了啊？”*
 
-#### 二连
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3 | 色欲 I
+#### 清空回收站
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x3 | 色欲 III
 
-##### 4 远程 +2-5 | 斩击 Lv+1
-[命中时] 
-- 施加 3 层[[effect#烧伤 X|烧伤]]
-- 施加 3 层[[effect#流血 X|流血]]
-##### 远程 +0-2 | 斩击 Lv+0
-[命中时] 
-- 施加 2 层[[effect#烧伤 X|烧伤]]
-- 施加 3 层[[effect#震颤 X|震颤]]
+指定 1 名除自身外的友方角色：
+- **移除目标所有状态效果**（不会移除特殊状态）。每移除 1 个，自身恢复 12 点混乱抗性，并获得 1 层呼吸法层数。
 
-> *他花了一些功夫，打造出了手中使用的这把趁手的武器。*
-> *……不过，只在一些规模很小的打架中使用。*
+> *“很难想象一个清空回收站都需要教……”——林清夏，追忆档案馆记录员*
 
-#### 三连
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3 | 傲慢 II
+#### 重装系统
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 傲慢 IV
 
-##### 3 远程 +3-5 | 斩击 Lv+2
-[命中时] 
-- 施加 3 层[[effect#烧伤 X|烧伤]]
-- 施加 3 层[[effect#流血 X|流血]]
-##### 远程 +0-2 | 斩击 Lv+1
-[命中时] 
-- 施加 2 层[[effect#烧伤 X|烧伤]]
-- 施加 3 层[[effect#震颤 X|震颤]]
-##### 远程 +0-2 | 斩击 Lv+0 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时 - 未破坏] 触发目标的[[effect#烧伤 X|烧伤]] 1 次，随后使目标的[[effect#烧伤 X|烧伤]]层数减半（向下取整）。
-[命中时] 施加 2 层[[effect#烧伤 X|烧伤]]
+**移除自身所有状态效果**。每移除 1 个，自身恢复 12 点混乱抗性，并获得 1 层呼吸法层数。
+对自身造成以下效果：
+- **[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]，但不改变伤害抗性，初始化混乱抗性**；
+- 恢复 10 点体力；
+- 移除自身的情绪；
+- 恢复 1 [[library#COST|COST]] ；
+- 抽取 1 张卡牌；
+- **解除混乱后的回合获得[[doc/build/keyword/effect#隐秘|隐秘]]**。
 
-> *有时他会打的更猛烈一点。*
+> *“重装一下——跑得比原来快。”*
+> *“这下知道他[[#重启一下]]的习惯是从哪里来了。”——任振雄，追忆档案馆馆长*
 
-#### 逃避
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x3
+#### 安全模式
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x2
 
-##### 20 闪避 -0-14 | Lv+5
-[闪避成功时] 恢复等同于最终威力的体力。
+[使用时] 
+- 本回合内，自身受到的混乱伤害-50%；
+- 若自身带有报错，获得5点护盾。
+##### 招架 6-9 | Lv+1
+[拼点失败] 获得1层报错。
 
-> *这并不可耻，可是这是解决不了问题的。*
+> *“先降权，再跑排查。”*
+> *按说这个建议完全是正确的，可惜安全模式还是没怎么派上用场。*
 
-#### 断缘
-4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x2 | 暴怒 IV
+#### 日志检索
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x3
 
-##### 20 远程 -1-3 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[使用时 - 已破坏] 最终威力-12。
-最终威力+1。
-[命中时]
-- 这一回合及下一回合内，施加 3 层[[effect#流血 X|流血]]；
-- 施加 4 层[[effect#烧伤 X|烧伤]]。
-[命中时 - 未破坏] 触发目标的[[effect#烧伤 X|烧伤]] 1 次，随后使目标的[[effect#烧伤 X|烧伤]]层数减半（向下取整）。
+抽 2 张卡，并失去**上限 1%** 的混乱抗性。
 
-> *他挥舞着他的剑。*
+> *“我找下历史记录。”*
 
-#### Enthralling
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 疯狂 IV
+#### 搜寻
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x2 | 色欲 IV
 
-\[[[mechanism#永恒|永恒]]]
-若本卡牌在你的手牌中，你必须优先打出这张卡牌。
-失去 12 点体力。
+从**抽牌堆**中**选择 1 张卡牌**置入手中。
 
-根据本卡牌使用次数，造成以下效果：
-- **1 次**：将 1 张\[[[#薪火之源|薪火之源]]]加入手牌；
-- **2 次**：将 1 张\[[[#疯狂|疯狂]]]加入手牌；
-- **3 次及以上**：抽 4 张卡牌。
+> *他将取得自身所想之物。*
 
-> *他终要为之付出代价。*
+#### 查找资料
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x3 | 暴食 I
 
-#### 薪火之源
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#能力卡|能力卡]] | 稀有 | x0
+抽 1 张卡。
+在[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加]]、[[doc/build/keyword/effect#守备等级增加 X|守备等级增加]]、[[doc/build/keyword/effect#守护 X|守护]]、[[doc/build/keyword/effect#振奋 X|振奋]]、[[doc/build/keyword/effect#迅捷 X|迅捷]]和[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]中获得**随机 2 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]**（优先获得未拥有的状态效果；获得[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]时，额外获得 1 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]）。
 
-[回合开始] 恢复 1 COST。
+#### 灵感涌现
+3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#能力卡|能力卡]] | 稀有 | x2 | 暴食 IV
 
-> *他的怒火源源不断，永不停息。*
-
-#### 疯狂
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x0 | 疯狂 III
-
-\[[[mechanism#消耗|消耗]]]
-失去 10 点混乱抗性；
-手牌中随机 1 张牌在本场战斗内耗能为 0 。
-
-#### 无限制决战
-4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
-
-##### 近战 9-12 | 斩击 Lv+5
-若自身处于[[effect#无我形态|无我形态]]，使本骰子威力固定为最大值。
-若本骰子掷出最大值，使最终威力+50.
-[命中时] 
-- 施加 5 层[[effect#烧伤 X|烧伤]]
-- 施加 3 层[[effect#流血 X|流血]]
-- 施加 9 层[[effect#震颤 X|震颤]]
-
-> *满目苍夷。*
-
-#### 绝不消散的怨恨
-6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 嫉妒 IV
-
-##### 30 近战 -0-2 | 斩击 Lv+5
-[命中时] 施加 5 层[[effect#流血 X|流血]]
-##### 近战 -0-2 | 斩击 Lv+5
-[命中时] 施加 4 层[[effect#流血 X|流血]]
-##### 近战 -0-2 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时] 施加 3 层[[effect#流血 X|流血]]
-[命中时 - 未破坏] 施加 2 层[[effect#流血保持 X|流血保持]]
-
-> *他怀恨在心。*
-
-#### 憎恶
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x3 | 嫉妒 IV
-
-本卡牌造成伤害+50%。
-##### 14 [近战 -0-2] | 打击 Lv+5
-[命中时] 施加 3 层[[effect#流血 X|流血]]
-##### [近战 -0-2] | 打击 Lv+5
-[命中时] 施加 4 层[[effect#流血 X|流血]]
-
-> *很快就变成了怨恨。*
-
-#### 暴行
-0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 疯狂 IV
-
-\[[[mechanism#永恒|永恒]]]
-若本卡牌在你的手牌中，你必须优先打出这张卡牌。
-失去 5 点体力。
-
-根据自身的状态，造成以下效果：
-- **带有[[effect#无我形态|无我形态]]**：将自身的所有耗能不大于 4 的[[doc/build/keyword/mechanism#攻击卡|攻击卡]][[mechanism#变化|变化]]为\[[[#残暴]]]
-- **不带有[[effect#无我形态|无我形态]]**：恢复 1 COST
-
-> *愚行。*
-
-#### 残暴
-4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x0 | 疯狂 IV
-
-\[[[mechanism#消耗|消耗]]]
-[使用时] 失去上限 1% 的体力与 20 点理智。
-##### 42 近战 -6-18 | 打击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
-[命中时] 施加 18 层[[effect#流血 X|流血]]
-[命中时 - 未破坏] 施加 3 层[[effect#流血持续 X|流血持续]]
-
-> *惨无人道。不择手段。*
-
-#### 无我杀戮
-8 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
-
-\[[[mechanism#永恒|永恒]]] \[[[mechanism#保留|保留]]] \[[[mechanism#广域乱射|广域乱射]]]
-仅在自身处于[[effect#无我形态|无我形态]]时才可以使用。
-目标每带有 5 层[[effect#流血 X|流血]]，使造成伤害+20%
-[命中时] 施加 5 层[[effect#流血 X|流血]]。
-##### 30 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-最终威力+1
-##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
-最终威力+2
-
-> *他获得了强大的力量，源自本真的力量。*
-> *可是，代价是什么呢……？*
+[回合开始] 在[[doc/build/keyword/effect#守护 X|守护]]、[[doc/build/keyword/effect#振奋 X|振奋]]、[[doc/build/keyword/effect#迅捷 X|迅捷]]和[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]中获得**随机 2 种[[doc/build/keyword/index#正面状态效果|正面状态效果]]**（优先获得未拥有的状态效果；只获得 1 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]）
 
 ---
 
-### 旧日卡牌
-这些卡牌不会在游戏中使用。它们只会被陈列在这里，讲述着过去设计的片段。
-#### 决战
-3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 嫉妒 III
+### EIS 卡牌
+#### 技术爆发
+6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 3 CD | 特殊
 
-若目标带有对决，使骰子威力-2
-##### 18 远程 -2-4 | 打击 Lv+5
-[命中时] 施加 5 层[[effect#流血 X|流血]]
-##### 远程 -2-4 | 打击 Lv+5
-[命中时] 施加 3 层[[effect#流血 X|流血]]
-##### 远程 -2-4 | 打击 Lv+5
-[命中时] 施加 3 层对决
+[使用时] **消耗自身所有正面状态效果**。每消耗1种：
+- 使本卡牌骰子威力+2
+- **本卡牌获得 1 层“爆发计数”**
+[命中时] 每有 1 层“爆发计数”，额外施加 2 层[[effect#烧伤 X|烧伤]]。
+##### 群体攻击-清算 38-50 | 打击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+**若“爆发计数”达到 5 层以上，本骰子变为[[mechanism#截除骰子|截除骰子]]**。
 
-> *在他咬住一个人后，很难能让他松口。*
+> *峰值运算——一次释放。*
 
-#### 压扁
-1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x1 | 暴怒 IV
+---
 
-##### 9 近战 -0-3 | Lv+0
-[命中时] 施加[[effect#易伤 X|易伤]]
+### EFW 卡牌
+该角色没有可用的相关卡牌。
 
-> *他用力，试图将目标踩在脚下。*
-> *虽然这没什么威力，但的确给目标带来了痛苦。*
+---
 
-#### 无可阻拦
-5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x2 | 傲慢 IV
-
-##### 22 招架 -0-2 | Lv+5
-本骰子可以在战斗中重复使用。
-
-> *他不会退缩，也不会停下脚步。*
-
-#### 愤怒
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x1 | 暴怒 III
-
-[使用时] 抽 2 张卡牌并使得手中同名的卡牌耗能 -1.
-[使用后] 将 1 张本卡牌的复制品加入弃牌堆。
-##### 14 近战 -0-2 | 打击 Lv+3
-[命中时] 施加 2 层[[effect#流血 X|流血]]
-##### 招架 -0-3 | 打击 Lv+2
-
-> *他的怒火不息——*
-
-#### 与我一战
-2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | x1 | 暴怒 III
-
-[使用时] 自身获得 3 点[[keyword#力量|力量]]。
-##### 近战 7-10 | 斩击 Lv+4
-##### 近战 7-10 | 斩击 Lv+4
-[命中时] 目标获得 1 点[[keyword#力量|力量]]。
-
-> *“你打我啊！”*

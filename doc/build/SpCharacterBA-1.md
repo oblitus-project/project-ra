@@ -1,4 +1,7 @@
 Special Character: Blue Archive Vol.1
+
+---
+
 # Sensei （临战）
 #pRA/人物/DU/联邦搜查社/老师（临战）  #pRA/人物/神秘显现/一般 #pRA/人物/神秘显现/一般装甲 
 
@@ -27,7 +30,7 @@ Special Character: Blue Archive Vol.1
 
 ### 什亭之匣启用
 属性强化；
-启用什亭之匣技能；
+启用什亭之匣卡牌；
 允许使用预言者质点连携卡牌（如果有）。
 
 > *确认战况。采用非常手段。*
@@ -53,8 +56,8 @@ Special Character: Blue Archive Vol.1
 [受击时] 对攻击者造成其骰子最终威力 **50%** 的[[doc/build/keyword/mechanism#固定|固定]]伤害（不对学生生效）。
 
 ### 大人的卡片
-技能强化；
-允许使用特殊 EIS 技能，并在使用其后获得[[doc/build/keyword/effect#奇迹之力|奇迹之力]]。
+卡牌强化；
+允许使用特殊 EIS 卡牌，并在使用其后获得[[doc/build/keyword/effect#奇迹之力|奇迹之力]]。
 
 ![[doc/build/keyword/effect#奇迹之力]]
 
@@ -80,7 +83,7 @@ Special Character: Blue Archive Vol.1
 [获得情感时] 额外获得 1 点。
 
 ### 凝视
-[战斗开始] 对欲向自身使用技能的角色施加 1 层[[doc/build/keyword/effect#虚弱 X|虚弱]] 、1 层[[doc/build/keyword/effect#破绽 X|破绽]] 和 1 层[[doc/build/keyword/effect#拼点威力降低 X|拼点威力降低]]（使用多个技能则重复套用）。
+[战斗开始] 对欲向自身使用卡牌的角色施加 1 层[[doc/build/keyword/effect#虚弱 X|虚弱]] 、1 层[[doc/build/keyword/effect#破绽 X|破绽]] 和 1 层[[doc/build/keyword/effect#拼点威力降低 X|拼点威力降低]]（使用多个卡牌则重复套用）。
 
 ### 偏离命运
 该角色[[doc/build/keyword/mechanism#倒下|倒下]]时，战斗失败。
@@ -348,7 +351,7 @@ Special Character: Blue Archive Vol.1
 #### 什亭之匣对策：神秘共鸣
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 0 CD | 暴食 IV
 
-选择 1 种场地效果生效。每场战斗仅能使用此卡 2 次。
+选择 1 种场地效果生效。每场战斗仅能使用此卡 3 次。
 ##### 慈悲
 3 回合内平衡双方[[library#攻防等级|攻防等级]]；己方角色额外获得[[doc/build/keyword/effect#攻击等级增加 X|攻击等级增加 6 ]]与[[doc/build/keyword/effect#守备等级增加 X|守备等级增加 6]]。
 ##### 时间扭曲
@@ -362,7 +365,8 @@ Special Character: Blue Archive Vol.1
 - 造成攻击伤害时，从中获得 20% 的体力恢复与混乱抗性恢复；
 - 所有骰子变为[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]。
 ##### 社会
-你将有能力与 1 名学生有充分的交流。
+本场战斗内，允许自身与除自身外的 1 名己方角色连携。双方将**共享所有状态效果**。
+若一方受到致死伤害时，**不会倒下**，将受到的伤害以 **100%** 的系数**复制**到本角色身上。
 ##### ???
 ???
 
@@ -386,7 +390,7 @@ Special Character: Blue Archive Vol.1
 
 \[[[doc/build/keyword/mechanism#广域乱射|广域乱射]]]
 每有 1 级情感等级，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 30%]]（最多 150%）
-本技能造成伤害必定[[doc/build/keyword/mechanism#暴击|暴击]]。
+造成伤害必定[[doc/build/keyword/mechanism#暴击|暴击]]。
 [使用时] 使自身[[library#生气/愤怒/狂怒|愤怒]]。
 ##### 24 远程 +5-6 | AW. 3 | 打击 Lv+10 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时] 施加 5 层[[doc/build/keyword/effect#烧伤 X|烧伤]]
@@ -402,7 +406,7 @@ Special Character: Blue Archive Vol.1
 #### 未曾褪色的决心
 5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 4 CD | 嫉妒 IV
 
-[固定目标] 本技能无法被偏转。
+[固定目标] 本卡牌无法被偏转。
 [攻击前] 无视目标的[[doc/build/keyword/mechanism#护盾 X|护盾]]。
 ##### 近战 28-48 | Lv+0 | [[doc/build/keyword/mechanism#截除骰子|截除骰子]] [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]] [[doc/build/keyword/mechanism#无视掩体|无视掩体]]
 [命中时] 施加[[doc/build/keyword/effect#承伤率增加 X%|承伤率增加 100%]]（3 回合）与[[doc/build/keyword/effect#受到伤害增加 X%|受到伤害增加 100%]]（3 回合）。
@@ -424,8 +428,8 @@ Special Character: Blue Archive Vol.1
 \[仅在自身拥有的[[doc/build/keyword/effect#奇迹之力|奇迹之力]]到达上限时，本卡才解锁使用。]
 
 [固定目标] 
-- 本技能的选定目标无法被改变；
-- 本技能不会选中学生。
+- 本卡牌的选定目标无法被改变；
+- 本卡牌不会选中学生。
 [使用时] 
 - 消耗全部[[doc/build/keyword/effect#奇迹之力|奇迹之力]]，每消耗 1 层，使骰子最终威力+2，[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 20%]]。
 本卡[[doc/build/keyword/mechanism#无法逃脱|无法逃脱]]，最先在战斗阶段中使用。

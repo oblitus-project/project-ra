@@ -1,5 +1,7 @@
 Character Extra Vol.1 - 追忆档案馆篇
 
+---
+
 # 任振雄 EIS::自我的纯真
 #pRA/角色/追忆档案馆/任振雄_EIS-自我的纯真  #pRA/角色/神秘显现/爆发 #pRA/角色/神秘显现/特殊装甲
 ## 基本资料
@@ -24,33 +26,33 @@ Character Extra Vol.1 - 追忆档案馆篇
 [[library#情感等级 / Emotion Level|情感等级]]到达 III 时额外+1。
 
 ### 精疲力竭
-[首次开启战斗] 失去上限 75% 的体力。
+[首次开启战斗] 失去**上限 75%** 的体力。
 
 ### 脆弱不堪
-[首次开启战斗] 失去上限 50% 的混乱抗性。
+[首次开启战斗] 失去**上限 50%** 的混乱抗性。
 
 ### EIS::自我的纯真
-[回合开始] 根据理智切换形态：
-- 不低于 0 点[[library#理智 / Sanity|理智]]：若不处于[[doc/build/keyword/effect#自我的绽放|自我的绽放]]，进入[[doc/build/keyword/effect#自我的觉醒|自我的觉醒]]；
-- 低于 0 点[[library#理智 / Sanity|理智]]：进入[[doc/build/keyword/effect#自我的扭曲|自我的扭曲]]。
-自身首次使用\[[[#污血泣泪-终]]]时，不会倒下，改为恢复上限 50% 的体力与上限 50% 的混乱抗性。
+[回合开始] 根据[[library#理智 / Sanity|理智]]切换形态：
+- **不低于 0 点**：若不处于[[doc/build/keyword/effect#自我的绽放|自我的绽放]]，进入[[doc/build/keyword/effect#自我的觉醒|自我的觉醒]]；
+- **低于 0 点**：进入[[doc/build/keyword/effect#自我的扭曲|自我的扭曲]]。
+**自身首次使用\[[[#污血泣泪-终]]]时，不会倒下**，改为恢复**上限 50%** 的体力与**上限 50%** 的混乱抗性。
 
 ![[doc/build/keyword/effect#自我的觉醒]]
 ![[doc/build/keyword/effect#自我的扭曲]]
 ![[doc/build/keyword/effect#自我的绽放]]
 
 ### 倔强
-自身所有骰子转化为[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]。
+**自身所有骰子转化为[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]**。
 
 ### 了然一身
-自身受到致命伤害时，无视该伤害，本回合体力不会低于 1 点，也不会[[library#陷入混乱|陷入混乱]]；随后，恢复上限 20% 的体力并获得 1 层[[doc/build/keyword/effect#污血 X|污血]]。
-[回合开始] 若自身已有 5 层[[doc/build/keyword/effect#污血 X|污血]]，使自身[[doc/build/keyword/mechanism#倒下|倒下]]。
+**自身受到致死伤害时，无视该伤害，本回合体力不会低于 1 点，也不会[[library#陷入混乱|陷入混乱]]**；随后，恢复**上限 20%** 的体力并**获得 1 层[[doc/build/keyword/effect#污血 X|污血]]**。
+**若自身已有 5 层[[doc/build/keyword/effect#污血 X|污血]]，使自身[[doc/build/keyword/mechanism#倒下|倒下]]**。
 
 ![[doc/build/keyword/effect#污血 X]]
 
 ### 绽放显现
-[回合开始] 若自身理智不低于 30 且带有的[[doc/build/keyword/effect#怒放 X|怒放]]层数不低于 3 层
-- 失去 15 点[[library#理智 / Sanity|理智]]使自身进入[[doc/build/keyword/effect#自我的绽放|自我的绽放]]。
+[回合开始] 若**自身[[library#理智 / Sanity|理智]]不低于 30 点**且**带有的[[doc/build/keyword/effect#怒放 X|怒放]]层数不低于 3 层**：
+- 失去 15 点[[library#理智 / Sanity|理智]]并使自身进入[[doc/build/keyword/effect#自我的绽放|自我的绽放]]。
 
 ![[doc/build/keyword/effect#怒放 X]]
 
@@ -63,8 +65,8 @@ Character Extra Vol.1 - 追忆档案馆篇
 
 ## [[library#理智 / Sanity|理智]]
 ### [[library#士气低落|士气低落]] | 偏执
-自身所有骰子威力+1；
-[回合开始] 获得[[doc/build/keyword/effect#易损 X|易损]]。
+**自身所有骰子威力+1**；
+[回合开始] 获得 1 层[[doc/build/keyword/effect#易损 X|易损]]。
 
 ### [[library#恐慌|恐慌]] | 失控
 若自身拥有 **EIS 卡牌**或 **EFW 卡牌**：
@@ -114,7 +116,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1 | 懒惰 I
 
 获得 1 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]。
-[回合结束] 若此牌仍在手中，复制 1 张加入手牌。
+[回合结束] 若此牌仍在手中，将 1 张本卡牌的[[mechanism#虚无|虚无]]复制品加入弃牌堆。
 
 #### 分析弱点
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3 | 暴食 I
@@ -130,8 +132,8 @@ Character Extra Vol.1 - 追忆档案馆篇
 2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 罕见 | x2
 
 [使用时] 抽取 1 张卡牌。
-若目标带有[[doc/build/keyword/mechanism#弱点标记|弱点标记]]，使骰子威力+1。
-若自身处于[[doc/build/keyword/effect#解放 I|解放 I]] 或更高程度，使骰子威力+2。
+**若目标带有[[doc/build/keyword/mechanism#弱点标记|弱点标记]]，使骰子威力+1。**
+**若自身处于[[doc/build/keyword/effect#解放 I|解放 I]] 或更高程度，使骰子威力+2**。
 ##### 招架 6-8 | Lv+3
 [拼点失败] 
 - 获得 2 层[[doc/build/keyword/effect#守护 X|守护]]；
@@ -146,7 +148,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2
 
 [使用时] 
-- 获得 1 层[[doc/build/keyword/mechanism#援护招架 X|援护招架]]；
+- **获得 1 层[[doc/build/keyword/mechanism#援护招架 X|援护招架]]**；
 - 获得 2 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度与 3 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数；
 - 获得 1 点正面情感；
 - 抽取 1 张卡牌。
@@ -196,7 +198,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1 | 懒惰 I
 
 获得 1 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]。
-[回合结束] 若此牌仍在手中，复制 1 张加入手牌。
+[回合结束] 若此牌仍在手中，将 1 张本卡牌的[[mechanism#虚无|虚无]]复制品加入弃牌堆。
 
 #### 复仇之意
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x2 | 暴怒 III
@@ -204,7 +206,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 [使用时] 
 - 获得 3 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度与 2 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数；
 - 抽取 2 张卡牌。
-己方每有 1 名角色[[doc/build/keyword/mechanism#倒下|倒下]]，使基础威力+2（最多+10）
+**己方每有 1 名角色[[doc/build/keyword/mechanism#倒下|倒下]]，使基础威力+2**（最多+10）
 [使用后] 下回合获得[[doc/build/keyword/effect#造成打击伤害增加 X%|造成打击伤害增加 20%]]（ 1 回合内）
 ##### 21 远程 -0-9 | 突刺 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时 - 未破坏] 
@@ -226,8 +228,8 @@ Character Extra Vol.1 - 追忆档案馆篇
 3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x3 | 暴怒 IV
 
 \[[[doc/build/keyword/mechanism#清算反击|清算反击]]]
-[使用时] 1 回合内，获得自身体力上限 20% 的[[doc/build/keyword/mechanism#护盾|护盾]].
-自身每失去上限 1% 的体力，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 3%]]。
+[使用时] 1 回合内，获得自身**体力上限 20%** 的[[doc/build/keyword/mechanism#护盾|护盾]].
+**自身每失去上限 1% 的体力，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 3%]]**。
 ##### 24 [近战 -0-2] | 打击 Lv+5 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 [命中时] 下回合施加 1 层[[doc/build/keyword/effect#拼点威力降低 X|拼点威力降低]]。
 [命中时 - 未破坏] 施加 2 层[[doc/build/keyword/effect#沉沦 X|沉沦]]与 5 层[[doc/build/keyword/effect#流血 X|流血]]
@@ -251,7 +253,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 - 使自身[[library#悲伤/抑郁/绝望|绝望]]。
 **消耗自身全部的混乱抗性**。每消耗自身**上限 1%** 的混乱抗性，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 3%]]。
 [[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 50%]]。
-下回合使自身[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]。
+**下回合使自身[[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]**。
 ##### 42 远程 -10-12 | 斩击 Lv+5
 [命中时] 施加 3 层[[doc/build/keyword/effect#沉沦 X|沉沦]]与 5 层[[doc/build/keyword/effect#震颤 X|震颤]]。
 ##### 远程 -10-12 | 斩击 Lv+5
@@ -274,7 +276,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 普通 | x1 | 懒惰 I
 
 获得 1 层[[doc/build/keyword/effect#陷入睡眠 X|陷入睡眠]]。
-[回合结束] 若此牌仍在手中，复制 1 张加入手牌。
+[回合结束] 若此牌仍在手中，将 1 张本卡牌的[[mechanism#虚无|虚无]]复制品加入弃牌堆。
 
 #### 分析弱点
 1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 普通 | x3 | 暴食 I
@@ -293,11 +295,10 @@ Character Extra Vol.1 - 追忆档案馆篇
 - 获得 5 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度与 3 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数；
 - 获得 3 点正面情感；
 - 恢复 1 [[library#COST|COST]] 并抽取 2 张卡牌。
-若自身带有[[doc/build/keyword/effect#解放 II|解放 II]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 50%]]；
-若自身带有[[doc/build/keyword/effect#解放 III|解放 III]]，改为获得[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 100%]]；
+若自身带有[[doc/build/keyword/effect#解放 II|解放 II]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 50%]]；若自身带有[[doc/build/keyword/effect#解放 III|解放 III]]，改为获得[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 100%]]；
 自身每有 5 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度，使[[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 20%]]（最多 60%）；
 目标每有 6 层[[doc/build/keyword/effect#震颤 X|震颤]]，使基础威力+2（最多+4）；
-若目标带有[[doc/build/keyword/mechanism#弱点标记|弱点标记]]，使骰子威力+1。
+**若目标带有[[doc/build/keyword/mechanism#弱点标记|弱点标记]]，使骰子威力+1**。
 [拼点失败] 使本技能剩余骰子最终威力+1。
 [命中时 - 未破坏] 若目标带有[[doc/build/keyword/effect#震颤 X|震颤]]，施加 2 层[[doc/build/keyword/effect#烧伤 X|烧伤]]。
 [命中时 - 已破坏] 这一颗骰子造成伤害固定为 1 。
@@ -323,14 +324,12 @@ Character Extra Vol.1 - 追忆档案馆篇
 
 [固定目标] 本技能无法被偏转。
 [拼点时] **目标每有 1 颗[[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]，使基础威力 +10** 。
-这一回合自身的[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数不会减少。
+**这一回合自身的[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数不会减少**。
 ##### 20 近战 +10-22 | 突刺 Lv+5 | [[doc/build/keyword/mechanism#截除骰子|截除骰子]] [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-[拼点时] 若目标仍有骰子未使用，则重复使用本骰子.
+[拼点时] **若目标仍有骰子未使用，则重复使用本骰子**.
 [命中时] 这一回合及下一回合施加 5 层[[doc/build/keyword/effect#震颤 X|震颤]]。
-[命中时 - 未破坏] 下回合[[doc/build/keyword/effect#封印 X|封印]]目标1 颗速度骰子。
+[命中时 - 未破坏] **下回合[[doc/build/keyword/effect#封印 X|封印]]目标 1 颗速度骰子**。
 [攻击后] 下回合获得 2 层[[doc/build/keyword/effect#拼点威力增加 X|拼点威力增加]]。
-
-
 
 #### 怒火释放
 4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 V
@@ -339,8 +338,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 - 抽取 1 张卡牌。
 - 获得 2 层[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]层数。
 **这一回合内，目标的[[doc/build/keyword/effect#震颤 X|震颤]]层数不会下降。**
-若自身带有[[doc/build/keyword/effect#解放 II|解放 II]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 50%]]；
-若自身带有[[doc/build/keyword/effect#解放 III|解放 III]]，改为获得[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 100%]]；
+若自身带有[[doc/build/keyword/effect#解放 II|解放 II]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 50%]]；若自身带有[[doc/build/keyword/effect#解放 III|解放 III]]，改为获得[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 100%]]；
 自身每有 4 级[[doc/build/keyword/effect#呼吸法 P/X|呼吸法]]强度，使[[doc/build/keyword/effect#造成混乱伤害增加 X%|造成混乱伤害增加 20%]]（最多 40%）；
 目标每有 6 层[[doc/build/keyword/effect#震颤 X|震颤]]，使基础威力+2（最多+4）；
 若目标带有[[doc/build/keyword/mechanism#弱点标记|弱点标记]]，使骰子威力+1。
@@ -449,7 +447,8 @@ Character Extra Vol.1 - 追忆档案馆篇
 [命中时] 恢复 1 点[[library#理智 / Sanity|理智]]。
 ##### 远程 -0-5 | 斩击 Lv+10 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
 ##### 远程 -0-4 | 斩击 Lv+9 | [[doc/build/keyword/mechanism#不可破坏的骰子|不可破坏的骰子]]
-若目标体力高于 50% ，重复使用 1 次本骰子。
+最终威力+1。
+**若目标体力高于 50% ，重复使用 1 次本骰子**。
 
 #### 怨恨
 5 [[library#COST|COST]] / 80 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | 嫉妒 IV | [[library#情绪侵蚀|绝望情绪侵蚀]]
@@ -464,7 +463,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 - 施加 15 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度；
 - 若目标体力低于 **10%**，则使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 300%]]。
 [击杀时] 
-- [[doc/build/keyword/mechanism#净化|净化]]自身所有负面状态
+- **[[doc/build/keyword/mechanism#净化|净化]]自身所有负面状态**
 - 恢复等同于**目标最大体力 10%** 的混乱抗性。
 
 #### 狂欢
@@ -475,7 +474,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 **失去所有混乱抗性**，每失去自身**上限 2%** 的混乱抗性：
 - 使骰子威力+1（最多+20）
 - 造成伤害+2%
-下回合恢复上限 50% 的混乱抗性。
+下回合恢复**上限 50%** 的混乱抗性。
 ##### 远程 28-42 | AW. 5 | 斩击 Lv+10
 [命中友方时] **不会造成伤害**，改为使其恢复等同于**骰子最终威力**的体力与混乱抗性。
 
@@ -517,6 +516,7 @@ Character Extra Vol.1 - 追忆档案馆篇
 自身所有名字带有“**复现**”的卡牌不会触发目标的反击骰子。
 
 > *这种技术结合了一些在时间上的研究思想。*
+> *“看起来很有潜力。”——任振雄，追忆档案馆馆长*
 
 ---
 
@@ -779,3 +779,441 @@ Character Extra Vol.1 - 追忆档案馆篇
 - 施加 3 层[[effect#疲软 X|疲软]]。
 
 > *“希望如此能让你平静下来……”*
+
+---
+
+# 任振雄 扭曲EIS::执迷之人
+#pRA/角色/追忆档案馆/任振雄_扭曲EIS-执迷之人  #pRA/角色/神秘显现/分解 #pRA/角色/神秘显现/重装甲 
+## 基本资料
+> [!note]+ [[library#成长系数|成长系数]] | 1.11
+> 等级 | 体力 | 混乱抗性
+> --- | --: | --:
+> 30 | 22 | 13
+> 40 | 65 | 39
+> 50 | 184 | 110
+> 60 | 524 | 314
+> ??(90) | ???(11996) | ???(7198)
+
+[[library#速度 / SPD|速度]] | 3-5
+[[library#神秘显现克制表|神秘显现]] | 分解 / 重装甲
+[[library#伤害抗性|伤害抗性]] | 斩击[0.5x/1x] / 突刺[0.75x/1.5x] / 打击[0.5x/0.5x]
+[[library#地形适性|地形适性]] | 街区[R] / 野外[R] / 室内[R]
+
+---
+
+## 被动
+### 速战速决 3
+[[library#速度骰子|速度骰子]]+1；
+[[library#情感等级 / Emotion Level|情感等级]]到达 III 时额外+1。
+
+### 扭曲
+根据自身的[[library#理智 / Sanity|理智]]值触发相应效果：
+- 若**不高于 0** ：自身的带有**疯狂**罪孽属性的卡牌耗能-1；
+- 若**高于 0** ：自身带有**哀叹**罪孽属性的卡牌耗能-1.
+
+> *他者的本能。*
+
+### 扭曲显现
+> *一种完全的 EIS 显现，表明在缺失或暗淡的自主意志。似乎表明其正陷入迷失中。*
+> *需要进一步观察。*
+
+### EIS::执迷之人
+自身带有[[mechanism#不可破坏的骰子|不可破坏的骰子]]的卡牌不会被偏转。
+
+> *他是纯粹的执迷不悟。*
+
+### 祭品
+**每次使用骰子时，失去上限 1% 的体力与上限 2% 的混乱抗性。**（不会使体力低于 10% 或使混乱抗性低于 12% ）
+自身首次受到致死伤害时，无视该伤害，这一回合内体力不会低于 1 点。下回合恢复**上限 20%** 的体力与**上限 30%** 的混乱抗性，并获得[[effect#无我形态|无我形态]]。
+
+> *“其实就是暴走了而已。”*
+
+---
+
+## [[library#理智 / Sanity|理智]]
+### [[library#士气低落|士气低落]] | 不屈
+自身首次陷入混乱时，改为恢复**上限 50%** 的混乱抗性。
+
+> *他者的坚毅。*
+
+### [[library#恐慌|恐慌]] | 执迷
+这一回合内，**自身所有的卡牌可以免费打出**。
+自身的**所有骰子威力固定为 0** .
+**所有[[doc/build/keyword/mechanism#攻击卡|攻击卡]]带有[[mechanism#无差别攻击|无差别攻击]]**。
+下回合开始时**初始化[[library#理智|理智]]**。
+
+> *他者的悲哀。*
+
+### 通常恢复[[library#理智 / Sanity|理智]]方式
+1. 处于[[doc/build/keyword/emotion#觉醒情绪|觉醒情绪]]
+2. [[library#拼点|拼点]]胜利：5
+3. 击杀敌方单位：==15+[等级差]/3==
+
+### 通常失去[[library#理智 / Sanity|理智]]方式
+1. 处于[[doc/build/keyword/emotion#崩溃情绪|崩溃情绪]]
+2. [[library#拼点|拼点]]失败：2
+3. [[doc/build/keyword/mechanism#陷入混乱|陷入混乱]]：3/5/10
+4. 己方角色[[doc/build/keyword/mechanism#倒下|倒下]]：==15+[等级差]/3==
+
+---
+
+## 档案
+> [!info]+ 追忆档案馆
+> 追忆档案馆 | 馆长
+> 追忆图书馆 EIS | 执迷之人
+> 
+> #pRA/标签/追忆档案馆 #pRA/标签/追忆档案馆-EIS #pRA/标签/人的解构形式 #pRA/标签/扭曲-EIS #pRA/标签/人的决战形式 
+
+> [!info]- 基本信息
+> 生日 | 09.09
+> 身高 | 170 cm
+> 体重 | 62 kg
+> 年龄 | 18
+> 喜好 | 电子设备、游戏、创作
+> ---
+> 扭曲化的曾经为任振雄的个体。
+> 他已经无药可救。
+
+> [!note]- 开发者评论
+> 
+
+---
+
+## 牌组
+### 一般
+#### 决一死战
+6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 疯狂 IV
+
+[使用时] 失去**上限 2%** 的体力。
+[固定目标] 指定正面状态效果最多的单位。
+目标每有 2 种正面状态效果，使[[effect#造成伤害增加 X%|造成伤害增加 20%]]（最多 150%）
+##### 60 近战 -12-18 | 打击 Lv+5 | [[mechanism#截除骰子|截除骰子]]
+[命中时] **[[mechanism#驱散|驱散]]目标所有的正面状态效果**。
+
+> *他者的死战。*
+
+#### 窒息
+5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x1 | 哀叹 IV
+
+[使用时] 失去**上限 1.5%** 的混乱抗性。
+[使用时] 这一回合内，获得[[effect#承伤率降低 X%|承伤率降低 25%]]
+##### 50 招架 -10-16 | Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]] [[mechanism#截除骰子|截除骰子]]
+[使用时 - 已破坏] 最终威力-30。
+[命中时 - 未破坏] 
+- **下一回合施加[[effect#心神不宁|心神不宁]]**；
+- **[[mechanism#净化|净化]]自身所有的负面状态效果**。
+
+> *他者的痛苦。*
+
+#### 痛苦的真相
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 哀叹 IV
+
+\[[[mechanism#消耗|消耗]]]
+[使用时] 
+- 失去上限 1% 的混乱抗性；
+- 若自身理智高于 0 点，将理智设为 0 点；
+- 失去所有 COST。
+[使用后] 
+- 使自身[[emotion#崩溃|崩溃]]；
+- 将 1 张\[[[curse#厄运|厄运]]]加入弃牌堆。
+**本卡牌不受情绪影响**。
+##### 群体攻击-清算 ??(99)-??(99) | 斩击 Lv+5 | [[mechanism#抹杀骰子|抹杀骰子]]
+[命中时] 
+- 目标失去 20 点理智；
+- 下一回合，将目标的情绪设为[[emotion#痛苦|痛苦]]；
+- 使目标[[mechanism#陷入混乱|陷入混乱]]。
+
+> *挥之不去的阴影。*
+
+#### 断缘-斩
+6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
+
+##### 28 远程 -1-3 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[命中时]
+- 这一回合及下一回合内，施加 5 层[[effect#流血 X|流血]]；
+- 施加 3 层[[effect#烧伤 X|烧伤]]。
+##### 远程 -1-3 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[命中时 - 未破坏] 触发目标的[[effect#烧伤 X|烧伤]] 1 次，随后使目标的[[effect#烧伤 X|烧伤]]层数减半（向下取整）。
+
+> *他希望与过去划分界限，就此一刀两断。*
+> *尽管这种联系脆弱不堪，可这缘分岂能有他决定的？*
+
+#### 二连
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3 | 色欲 I
+
+##### 4 远程 +2-5 | 斩击 Lv+1
+[命中时] 
+- 施加 3 层[[effect#烧伤 X|烧伤]]
+- 施加 3 层[[effect#流血 X|流血]]
+##### 远程 +0-2 | 斩击 Lv+0
+[命中时] 
+- 施加 2 层[[effect#烧伤 X|烧伤]]
+- 施加 3 层[[effect#震颤 X|震颤]]
+
+> *他花了一些功夫，打造出了手中使用的这把趁手的武器。*
+> *……不过，只在一些规模很小的打架中使用。*
+
+#### 三连
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 普通 | x3 | 傲慢 II
+
+##### 3 远程 +3-5 | 斩击 Lv+2
+[命中时] 
+- 施加 3 层[[effect#烧伤 X|烧伤]]
+- 施加 3 层[[effect#流血 X|流血]]
+##### 远程 +0-2 | 斩击 Lv+1
+[命中时] 
+- 施加 2 层[[effect#烧伤 X|烧伤]]
+- 施加 3 层[[effect#震颤 X|震颤]]
+##### 远程 +0-2 | 斩击 Lv+0 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[命中时 - 未破坏] 触发目标的[[effect#烧伤 X|烧伤]] 1 次，随后使目标的[[effect#烧伤 X|烧伤]]层数减半（向下取整）。
+[命中时] 施加 2 层[[effect#烧伤 X|烧伤]]
+
+> *有时他会打的更猛烈一点。*
+
+#### 逃避
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x3
+
+##### 20 闪避 -0-14 | Lv+5
+[闪避成功时] 恢复等同于**最终威力**的体力。
+
+> *这并不可耻，可是这是解决不了问题的。*
+
+#### 断缘
+4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x2 | 暴怒 IV
+
+##### 20 远程 -1-3 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[使用时 - 已破坏] 最终威力-12。
+最终威力+1。
+[命中时]
+- 这一回合及下一回合内，施加 3 层[[effect#流血 X|流血]]；
+- 施加 4 层[[effect#烧伤 X|烧伤]]。
+[命中时 - 未破坏] 触发目标的[[effect#烧伤 X|烧伤]] 1 次，随后使目标的[[effect#烧伤 X|烧伤]]层数减半（向下取整）。
+
+> *他挥舞着他的剑。*
+
+#### Enthralling
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 疯狂 IV
+
+\[[[mechanism#永恒|永恒]]]
+**若本卡牌在你的手牌中，你必须优先打出这张卡牌**。
+失去 12 点体力。
+
+根据本卡牌使用次数，造成以下效果：
+- **1 次**：将 1 张\[[[#薪火之源|薪火之源]]]加入手牌；
+- **2 次**：将 1 张\[[[#疯狂|疯狂]]]加入手牌；
+- **3 次及以上**：抽 4 张卡牌。
+
+> *他终要为之付出代价。*
+
+#### 薪火之源
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#能力卡|能力卡]] | 稀有 | x0
+
+[回合开始] 恢复 1 COST。
+
+> *他的怒火源源不断，永不停息。*
+
+#### 疯狂
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 罕见 | x0 | 疯狂 III
+
+\[[[mechanism#消耗|消耗]]]
+失去 10 点混乱抗性；
+**手牌中随机 1 张牌在本场战斗内耗能为 0** 。
+
+#### 无限制决战
+4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
+
+##### 近战 9-12 | 斩击 Lv+5
+**若自身处于[[effect#无我形态|无我形态]]，使本骰子威力固定为最大值**。
+**若本骰子掷出最大值，使最终威力+50**.
+[命中时] 
+- 施加 5 层[[effect#烧伤 X|烧伤]]
+- 施加 3 层[[effect#流血 X|流血]]
+- 施加 9 层[[effect#震颤 X|震颤]]
+
+> *满目苍夷。*
+
+#### 绝不消散的怨恨
+6 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 嫉妒 IV
+
+##### 30 近战 -0-2 | 斩击 Lv+5
+[命中时] 施加 5 层[[effect#流血 X|流血]]
+##### 近战 -0-2 | 斩击 Lv+5
+[命中时] 施加 4 层[[effect#流血 X|流血]]
+##### 近战 -0-2 | 斩击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[命中时] 施加 3 层[[effect#流血 X|流血]]
+[命中时 - 未破坏] 施加 2 层[[effect#流血保持 X|流血保持]]
+
+> *他怀恨在心。*
+
+#### 憎恶
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x3 | 嫉妒 IV
+
+本卡牌造成伤害+50%。
+##### 14 [近战 -0-2] | 打击 Lv+5
+[命中时] 施加 3 层[[effect#流血 X|流血]]
+##### [近战 -0-2] | 打击 Lv+5
+[命中时] 施加 4 层[[effect#流血 X|流血]]
+
+> *很快就变成了怨恨。*
+
+#### 暴行
+0 [[library#COST|COST]] | [[doc/build/keyword/mechanism#技能卡|技能卡]] | 稀有 | x1 | 疯狂 IV
+
+\[[[mechanism#永恒|永恒]]]
+**若本卡牌在你的手牌中，你必须优先打出这张卡牌**。
+失去 5 点体力。
+
+根据自身的状态，造成以下效果：
+- **带有[[effect#无我形态|无我形态]]**：将自身的**所有耗能不大于 4 的[[doc/build/keyword/mechanism#攻击卡|攻击卡]]**[[mechanism#变化|变化]]为\[[[#残暴]]]
+- **不带有[[effect#无我形态|无我形态]]**：恢复 1 COST
+
+> *愚行。*
+
+#### 残暴
+4 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x0 | 疯狂 IV
+
+\[[[mechanism#消耗|消耗]]]
+[使用时] 失去**上限 1%** 的体力与 20 点理智。
+##### 42 近战 -6-18 | 打击 Lv+5 | [[mechanism#不可破坏的骰子|不可破坏的骰子]]
+[命中时] 施加 18 层[[effect#流血 X|流血]]
+[命中时 - 未破坏] 施加 3 层[[effect#流血持续 X|流血持续]]
+
+> *惨无人道。不择手段。*
+
+#### 无我杀戮
+8 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 稀有 | x1 | 暴怒 IV
+
+\[[[mechanism#永恒|永恒]]] \[[[mechanism#保留|保留]]] \[[[mechanism#广域乱射|广域乱射]]]
+**仅在自身处于[[effect#无我形态|无我形态]]时才可以使用**。
+目标每带有 5 层[[effect#流血 X|流血]]，使造成伤害+20%
+[命中时] 施加 5 层[[effect#流血 X|流血]]。
+##### 30 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+最终威力+1
+##### 近战 -0-3 | AW. 9 | 斩击 Lv+5
+最终威力+2
+
+> *他获得了强大的力量，源自本真的力量。*
+> *可是，代价是什么呢……？*
+
+---
+
+### EIS 卡牌
+#### 庄严哀悼
+4 [[library#COST|COST]] | 2 CD | 特殊 | 忧郁 V
+
+自身每有 1 层[[doc/build/keyword/effect#怨恨 X|怨恨]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 1%]]（最多 150%）；
+自身每有 1 级[[library#情感等级 / Emotion Level|情感等级]]，使基础威力+1。
+##### 3 远程 +0-6 | 突刺 Lv+6
+[使用时] 失去 3 点理智。
+**本骰子可重复使用 6 次。**
+[命中时] 恢复 1-3 点理智。
+[击杀时] 恢复 10 点[[library#理智 / Sanity|理智]]。
+
+#### 污血泣泪-始
+1 [[library#COST|COST]] / 10 [[library#理智 / Sanity|理智]] | 1 CD | 特殊 | 暴食 V
+
+\[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
+**本卡牌不会命中敌人**；不会触发目标的守备骰子、反击骰子与敌方单位的[[doc/build/keyword/mechanism#援护 X|援护]]；
+本卡牌不受威力增减影响。
+##### 20 近战 -1-10 | 突刺 Lv+10
+自身失去等同于**最终威力**的体力（不会使自身[[doc/build/keyword/mechanism#倒下|倒下]]）。
+[攻击后] 获得 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]。
+
+#### 污血泣泪-终
+0 [[library#COST|COST]] | 99 CD | 特殊 | 暴食 V
+
+\[[[doc/build/keyword/mechanism#无法装备|无法装备]]] | \[[[doc/build/keyword/mechanism#不可拼点|不可拼点]]]
+自身每有 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使[[doc/build/keyword/effect#造成伤害增加 X%|造成伤害增加 10%]]
+自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使[[doc/build/keyword/effect#伤害率增加 X%|伤害率增加 10%]]
+[使用时] 
+- 目标每有 5 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度，使骰子威力+1(最多+3)；
+- 根据自身的[[doc/build/keyword/effect#污血 X|污血]]层数，触发以下效果：
+	- **不低于 3 层**：使溅射附加值(AW.)+1；
+	- **不低于 4 层**：使溅射附加值(AW.)+2；
+	- **不低于 5 层**：使溅射附加值(AW.)+3；
+##### 远程 4-6 | AW. 3 | 突刺 Lv+10
+自身每有 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使威力+2；
+自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使威力+3。
+[命中时] 对目标施加 4 层[[doc/build/keyword/effect#破裂 P/X|破裂]]层数。
+##### 远程 3-5 | AW. 3 | 突刺 Lv+10
+自身每有 1 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使威力+2；
+自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使威力+3。
+[命中时] 对目标施加 2 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度。
+##### 远程 2-4 | AW. 3 | 突刺 Lv+10
+若自身拥有 3 层[[doc/build/keyword/effect#埋花针 X|埋花针]]，使威力+3；
+自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使威力+2。
+[命中时] 对目标施加 2 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度。
+##### 远程 2-4 | AW. 3 | 突刺 Lv+10
+自身每有 1 层[[doc/build/keyword/effect#污血 X|污血]]，使威力+2。
+[命中时] 对目标施加 2 级[[doc/build/keyword/effect#破裂 P/X|破裂]]强度。
+[攻击后] 解除自身的[[doc/build/keyword/effect#埋花针 X|埋花针]]与[[doc/build/keyword/effect#污血 X|污血]]，自身[[doc/build/keyword/mechanism#倒下|倒下]]。
+
+---
+
+### EFW 卡牌
+该角色没有可用的相关卡牌。
+
+---
+
+### 旧日卡牌
+这些卡牌不会在游戏中使用。它们只会被陈列在这里，讲述着过去设计的片段。
+#### 决战
+3 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x2 | 嫉妒 III
+
+若目标带有对决，使骰子威力-2
+##### 18 远程 -2-4 | 打击 Lv+5
+[命中时] 施加 5 层[[effect#流血 X|流血]]
+##### 远程 -2-4 | 打击 Lv+5
+[命中时] 施加 3 层[[effect#流血 X|流血]]
+##### 远程 -2-4 | 打击 Lv+5
+[命中时] 施加 3 层对决
+
+> *在他咬住一个人后，很难能让他松口。*
+
+#### 压扁
+1 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x1 | 暴怒 IV
+
+##### 9 近战 -0-3 | Lv+0
+[命中时] 施加[[effect#易伤 X|易伤]]
+
+> *他用力，试图将目标踩在脚下。*
+> *虽然这没什么威力，但的确给目标带来了痛苦。*
+
+#### 无可阻拦
+5 [[library#COST|COST]] | [[doc/build/keyword/mechanism#守备卡|守备卡]] | 稀有 | x2 | 傲慢 IV
+
+##### 22 招架 -0-2 | Lv+5
+本骰子可以在战斗中重复使用。
+
+> *他不会退缩，也不会停下脚步。*
+
+#### 愤怒
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | 罕见 | x1 | 暴怒 III
+
+[使用时] 抽 2 张卡牌并使得手中同名的卡牌耗能 -1.
+[使用后] 将 1 张本卡牌的复制品加入弃牌堆。
+##### 14 近战 -0-2 | 打击 Lv+3
+[命中时] 施加 2 层[[effect#流血 X|流血]]
+##### 招架 -0-3 | 打击 Lv+2
+
+> *他的怒火不息——*
+
+#### 与我一战
+2 [[library#COST|COST]] | [[doc/build/keyword/mechanism#攻击卡|攻击卡]] | x1 | 暴怒 III
+
+[使用时] 自身获得 3 点[[keyword#力量|力量]]。
+##### 近战 7-10 | 斩击 Lv+4
+##### 近战 7-10 | 斩击 Lv+4
+[命中时] 目标获得 1 点[[keyword#力量|力量]]。
+
+> *“你打我啊！”*
+
+---
+
